@@ -1,0 +1,272 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\section*{2.  Desarrollo Experimental.}\\
+\textbf{Lista de Materiales:} \\
+Soporte pegado a la pared con mariposas met\'{a}licas.\\
+Una barra del material requerido o proporcionado. \\
+Un cron\'{o}metro. \\
+Un medidor de \'{a}ngulo con soporte y punta de flecha. \\
+Un soporte horizontal para una barra sostenida.\\
+Pesas de distintas masas. \\
+Un medidor de \'{a}nglos horizotal (en este caso, transportador).  \\
+Gancho conectado a la barra para ejercer un torque con el peso. \\
+\section*{2.2 Arreglo experimenal. Parte 2: M\'{e}todo Oscilatorio o Din\'{a}mico.}
+\begin{figure}[hbtp]
+\centering
+\\
+\includegraphics[width=10cm]{../../../../../../Pictures/1111111111.jpg}  
+\caption{Arreglo general}
+\end{figure} 
+
+
+\section*{Procedimiento.}
+1.-Medir las const\'{a}ntes L y R de la barra.\\
+2.-Medir m, R' del disco y calcuar su momento de inercia I.\\
+3.-Girar el disco yn \'{a}ngulo peque\~{n}o y soltar dejando que se estabilice la oscilaci\'{o}n. \\
+4.-Medir el tiempo t para 10 oscilaciones.\\
+5.-Obtener T=t/10.\\
+6.-Calcular K y M correspondientes.\\
+7.- Graficar K vs $\theta$ y M vs $\theta$ y ajustar para obtener los valores \'{o}ptimos de K y M de la muestra.
+\section*{Resultados.}}
+Comenzamos la pr\'{a}ctica con ell material proporcionado por el equipo de laboratorio, procedimos a medir algunas de nuestras constantes como lo son; el radio del disco, el radio peque\~{n}o o transversal de la barra  por medio de un tornillo microm\'{e}trico, y con un metro medimos la elongaci\'{o}n de la barra, cabe resaltar que fueron dos barras de distinto material, as\'{i} que mostratremos primero el an\'{a}lisis de la barra 1 y despu\'{e}s el de la barra 2. Llenamos la Tabla 1 proporcionada para despu\'{e}s graficar Kvs$\theta$ y Mvs$\theta$ y ajustar para calcular el K y M de cada muestra.\\
+\\
+\textbf{Barrra 1. }
+\begin{figure 2}
+\caption{\textbf{Tabla 1.}}
+\\
+\centering
+\includegraphics[width=12cm]{../../../../../../Pictures/Tablaone.jpg}  
+\\
+\end{figure 2}
+\\
+\medskip
+De las cuales extragimos los siguientes datos de la siguiente tabla para poder hacer la gr\'{a}fica Kvs$\theta$ y Mvs$\theta$.
+\medskip
+\\
+\begin{figure 3}
+\caption{\textbf{Tabla 2.}}
+\\
+\centering
+\includegraphics[width=6cm]{../../../../../../Pictures/tablaonetwo.jpg}   
+\includegraphics[width=6cm]{../../../../../../Pictures/tabla12222.jpg} 
+\\
+\caption{Datos tabulados para graficar.}
+\end{figure 3}
+\\
+\section*{Gr\'{a}fica de dispersi\'{o}n}
+\\
+\\
+\begin{figure 5}
+
+\centering
+\includegraphics[width=8cm]{../../../../../../Pictures/Dispersion1.jpg} 
+\includegraphics[width=8cm]{../../../../../../Pictures/Dispersion2.jpg}  
+\\
+\caption{Gr\'{a}fico de dispersi\'o}n para el m\'{e}todo oscilatorio.}
+\end{figure 5}
+\\
+\pagebreak
+\section*{Ajuste de datos.}\\
+Por el Apr\'{e}ndice 1 podemos hacer el respectivo ajuste por el m\'{e}todo de m\'{i}nimos cuadrados para encontrar un modelo lineal ${Y}_{1}={a}_{1}x +{b}_{1}$ tales que $\left( { x }_{ i },{ y }_{ i } \right) \rightarrow \left( \theta(grad),{k}_{1} (Nm/grad))$  tambi\'{e}n un modelo lineal ${Y}_{2}={a}_{2}x +{b}_{2}$ tales que $\left( { x }_{ j },{ y }_{ j } \right) \rightarrow \left( \theta(grad), {M}_{1}(Pa))$y para cada uno de los datos de cada experimento, cuyas tablas de entrada y modelos son los siguientes:
+\medskip
+\\
+\textbf{Tabla de entrada 1.}
+\\
+\begin{figure 6}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+n&$\sum _{ i=1 }^{ n }{ { x }_{ i } } $(grad) & $\sum _{ i=1 }^{ n }{ { y }_{ i } }$(Nm/grad) & $ \sum _{ i=1 }^{ n }{ { y }_{ i } } { x }_{ i }$ (Nm) & $\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } }({ grad }^{ 2 })$ \\ 
+
+\hline 
+11&$1.952\times { 10 }^{ 2 }$& $1.156\times { 10 }^{ 1 }$ & $2.536\times { 10 }^{ 2 }$ & $7.666\times { 10 }^{ 3 }$\\ 
+\hline 
+\end{tabular}
+\end{figure 6} 
+\\
+\\
+De donde:
+\[{a}_{1}=\frac { n\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i } } \sum _{ i=1 }^{ n }{ { y }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } } \quad y\quad {b}_{1}=\frac { \sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } \sum _{ i=1 }^{ n }{ { y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } \sum _{ i=1 }^{ n }{ { x }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } }.\]
+Sustituyendo los valores queda:
+
+\[{a}_{1}=\frac { 11\times 2.526\times { 10 }^{ 2 }-\left[ 1.952\times { 10 }^{ 2 }\times 1.156\times { 10 }^{ 1 } \right]  }{ 11\times 7.66\times { 10 }^{ 3 }-{ \left( 1.952\times { 10 }^{ 2 }\right)  }^{ 2 } } ={ 8.43\times 10 }^{ -4 } (Nm/{grad}^{ 2 }).\]
+
+\[{b}_{2}=\frac { 7.66\times { 10 }^{ 3 }\times 1.156\times { 10 }^{ 1 }-\left[ 2.526\times { 10 }^{ 2 }\times 1.952\times { 10 }^{ 2 } \right]  }{ 11\times 7.66\times { 10 }^{ 3 }-{ \left( 1.952\times { 10 }^{ 2 } \right)  }^{ 2 } } ={ 1.0367 (Nm/grad).\]
+Finalmente queda el modelos propuesto:
+\[{ Y }_{ 1 }= { 8.43\times 10 }^{ -4 }x + 1.0367  \quad \rightarrow(1) \]
+\\
+\textbf{Tabla de entrada 2.}
+\\
+\begin{figure 7}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+n&$\sum _{ j=1 }^{ n }{ { x }_{ j } } $(grad) & $\sum _{ j=1 }^{ n }{ { y }_{ j } }$(Pa) & $ \sum _{ j=1 }^{ n }{ { y }_{ j } } { x }_{ j }\quad(Pa\cdot grad)$ & $\sum _{ j=1 }^{ n }{ { x }_{ j }^{ 2 } }({ grad }^{ 2 })$ \\ 
+
+\hline 
+11&$1.952\times { 10 }^{ 2 }$& $6.145\times { 10 }^{ 11 }$ & $13.066\times { 10 }^{ 12 }$ & $7.666\times { 10 }^{ 3 }$\\ 
+\hline 
+\end{tabular}
+\end{figure 7} 
+\\
+\\
+De donde:
+\[{a}_{2}=\frac { n\sum _{ j=1 }^{ n }{ { x }_{ j }{ y }_{ j } } -\sum _{ j=1 }^{ n }{ { x }_{ j } } \sum _{ j=1 }^{ n }{ { y }_{ j } }  }{ n\sum _{ j=1 }^{ n }{ { x }_{ j }^{ 2 } } -{ \left( \sum _{ j=1 }^{ n }{ { x }_{ j } }  \right)  }^{ 2 } } \quad y\quad {b}_{2}=\frac { \sum _{ j=1 }^{ n }{ { x }_{ j }^{ 2 } } \sum _{ j=1 }^{ n }{ { y }_{ j } } -\sum _{ j=1 }^{ n }{ { x }_{ j }{ y }_{ j } } \sum _{ j=1 }^{ n }{ { x }_{ j } }  }{ n\sum _{ j=1 }^{ n }{ { x }_{ j }^{ 2 } } -{ \left( \sum _{ j=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } }.\]
+Sustituyendo los valores queda:
+
+\[{a}_{2}=\frac { 11\times 13.066\times { 10 }^{ 12 }-\left[ 1.952\times { 10 }^{ 2 }\times 6.145\times { 10 }^{ 11 } \right]  }{ 11\times 7.66\times { 10 }^{ 3 }-{ \left( 1.952\times { 10 }^{ 2 } \right)  }^{ 2 } } ={ 3.067\times 10 }^{ 7 } (Pa/grad).\]
+
+\[{b}_{2}=\frac { 7.66\times { 10 }^{ 3 }\times 6.145\times { 10 }^{ 11 }-\left[ 13.066\times { 10 }^{ 12 }\times 1.952\times { 10 }^{ 2 } \right]  }{ 11\times 7.66\times { 10 }^{ 3 }-{ \left( 1.952\times { 10 }^{ 2 } \right)  }^{ 2 } } = { 4.035\times  10 }^{ 10 } (Pa).\]
+Finalmente queda el modelos propuesto:
+\[{ Y }_{ 2 }= { 3.067\times 10 }^{ 7 }x + { 4.035\times  10 }^{ 10 }  \quad \rightarrow(2 ). \]
+\\
+De (1) y (2) podemos graficar sus correspondientes lineas de tendencia, a continuaci\'{o}n vamos a graficar su modelo y a tratarlo con m\'{a}s detalle.
+\pagebreak
+
+\section*{Ajuste por excel.}\\
+Notemos que mientras por medio de c\'{a}alculos pudimos enconrar un modoelo, el programa Excel pudo enontrar otro, es cual se muestra a continuaci\'{o}n.
+\\
+\begin{figure}[hbtp]
+ \centering
+\includegraphics[width=8cm]{../../../../../../Pictures/EXCLE111.jpg} 
+\includegraphics[width=8.2cm]{../../../../../../Pictures/EXCLE22222.jpg}  
+\end{figure}
+\\
+Las ecuaciones para la linea punteada de color azul de la figura de la izquierda y derecha respectivamente son ${ Y }_{ 1 }= { 8.43\times 10 }^{ -4 }x+ 1.0367$ y ${ Y }_{ 2 }= { 3.067\times 10 }^{ 7 }x+ { 4.035\times  10 }^{ 10 }$, claramente se puede observar que en las g\'{a}ficas la linea de tendencia no es muy inclinada, es decir, su funci\'{o}n no da un cambio muy grande a lo largo de su dominio, as\'{i} que por simplificaci\'{o}n tomamos su ecuacion como una funci\'{o}n constante, proporcionada por el mismo modelo linal, que ser\'{a} la linea de rojo cuyo valor est\'{a} dado por la intersecciones con el eje Y y que est\'{a} marcado en un circulo rojo. Y as\'{i} tenemos que ${ Y }'_{ 1 }= 1.02$ y ${ Y }'_{ 2 }=4.07\times { 10 }^{ 10 }$. Al aplicar un momento torsional M en el extremo inferior de la barra, \'{e}ste experimenta una deformaci\'{o}n de torsi\'{o}n. Dentro de los l\'{i}mites de validez de la ley de Hooke, el \'{a}ngulo de torsi\'{o}n $\theta$ es directamente proporcional al momento torsional M aplicado, de modo que:
+\[{ k }_{ 1 }= 1.0(Nm/grad)\left( { grad }/{ \left( { 1 }/{ 2\pi rad } \right)  } \right)=2.04(Nm/rad)\quad y \quad { M }_{ 1 }=4.07\times { 10 }^{ 10 }(Pa).\]
+\\
+\section*{Error Porcentual.}\\
+Los valores verdaderos (Taba 1 del marco te\'{o}rico) de los m\'{o}dulos de corte o cizalladura del cobre es ${ M }_{ c }=4.4\times { 10 }^{ 10 }Pa$ y su  coeficiente de torsi\'{o}n o m\'{o}dulo el\'{a}stico de torsi\'{o}n es de ${ k }_{ c }=1.8(Nm/rad)$. Entonces, de nuestras mediciones y c\'{a}lculos podemos obtener el error porcentual:
+
+\[{ E }rror\quad porcentual\quad { M }_{ c }=\frac { Error\quad verdadero }{ Valor\quad Verdadero } =\frac { Valor\quad verdadero - Valor\quad aproximado }{ Valor\quad verdadero } \times 100= 34\%. \]
+
+\[{ E }rror\quad porcentual\quad { k }_{ c }=\frac { Error\quad verdadero }{ Valor\quad Verdadero } =\frac { Valor\quad verdadero - Valor\quad aproximado }{ Valor\quad verdadero } \times 100= 46\%. \]
+\\
+\pagebreak
+
+\textbf{Barrra 2. }
+\begin{figure 2}
+\caption{Tabla 1.1}
+\\
+\centering
+\includegraphics[width=12cm]{../../../../../../Pictures/tablatwoooo.jpg}   
+\\
+\end{figure 2}
+\\
+\medskip
+De las cuales extragimos los siguientes datos de la siguiente tabla para poder hacer la gr\'{a}fica Kvs$\theta$ y Mvs$\theta$.
+\medskip
+\medskip
+\\
+\begin{figure 3}
+\caption{Tabla 2.1}
+\\
+\centering  
+\includegraphics[width=6cm]{../../../../../../Pictures/tablatwoone.jpg} 
+\includegraphics[width=6cm]{../../../../../../Pictures/tablaoneontwo.jpg} \\
+\caption{Datos tabulados para graficar.}
+\end{figure 3}
+\\
+\section*{Gr\'{a}fica de dispersi\'{o}n}
+\\
+\\
+\begin{figure 5}
+
+\centering
+\includegraphics[width=8.2cm]{../../../../../../Pictures/Dispersion3.jpg} 
+\includegraphics[width=8.3cm]{../../../../../../Pictures/Dispersion4.jpg}  
+\\
+\caption{Gr\'{a}fico de dispersi\'o}n para el m\'{e}todo oscilatorio de la Barra 2.}
+\end{figure 5}
+\\
+\pagebreak
+\section*{Ajuste de datos.}
+Por el Apr\'{e}ndice 1 podemos hacer el respectivo ajuste por el m\'{e}todo de m\'{i}nimos cuadrados para encontrar un modelo lineal ${Y}_{3}={a}_{3}x +{b}_{3}$ tales que $\left( { x }_{ s },{ y }_{ s } \right) \rightarrow \left( \theta(grad),{k}_{2} (Nm/grad))$  tambi\'{e}n un modelo lineal ${Y}_{4}={a}_{4}x +{b}_{4}$ tales que $\left( { x }_{ t },{ y }_{ t } \right) \rightarrow \left( \theta(grad), {M}_{2}(Pa))$y para cada uno de los datos de cada experimento, cuyas tablas de entrada y modelos son los siguientes:
+\medskip
+\\
+\textbf{Tabla de entrada 3.}
+\\
+\begin{figure 6}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+n&$\sum _{ i=1 }^{ n }{ { x }_{ i } } $(grad) & $\sum _{ i=1 }^{ n }{ { y }_{ i } }$(Nm/grad) & $ \sum _{ i=1 }^{ n }{ { y }_{ i } } { x }_{ i }$ (Nm) & $\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } }({ grad }^{ 2 })$ \\ 
+
+\hline 
+10&$1.83\times { 10 }^{ 2 }$& $1.036\times { 10 }^{ 1 }$ & $3.26\times { 10 }^{ 2 }$ & $6.489\times { 10 }^{ 3 }$\\ 
+\hline 
+\end{tabular}
+\end{figure 6} 
+\\
+\\
+De donde:
+\[{a}_{3}=\frac { n\sum _{s=1 }^{ n }{ { x }_{ s }{ y }_{ s } } -\sum _{ s=1 }^{ n }{ { x }_{ i } } \sum _{ s=1 }^{ n }{ { y }_{ s } }  }{ n\sum _{ s=1 }^{ n }{ { x }_{ s }^{ 2 } } -{ \left( \sum _{ s=1 }^{ n }{ { x }_{ s } }  \right)  }^{ 2 } } \quad y\quad {b}_{3}=\frac { \sum _{ s=1 }^{ n }{ { x }_{ s }^{ 2 } } \sum _{ s=1 }^{ n }{ { y }_{ s } } -\sum _{ s=1 }^{ n }{ { x }_{ s }{ y }_{ s } } \sum _{ s=1 }^{ n }{ { x }_{ s } }  }{ n\sum _{ s=1 }^{ n }{ { x }_{ s }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } }.\]
+Sustituyendo los valores queda:
+
+\[{a}_{3}=\frac { 103.26\times { 10 }^{ 2 }-\left[3.26\times { 10 }^{ 2 }\times 1.83\times { 10 }^{ 2 }  \right]  }{ 10\times 6.489\times { 10 }^{ 3 }-{ \left( 1.83\times { 10 }^{ 2 }\right)  }^{ 2 } } =1.032(Nm/{grad}^{ 2 }).\]
+
+\[{b}_{3}=\frac { 6.489\times { 10 }^{ 3 }\times 1.036\times { 10 }^{ 1 }-\left[ 2.526\times { 10 }^{ 2 }\times 1.952\times { 10 }^{ 2 } \right]  }{10\times 6.489\times { 10 }^{ 3 }-{ \left( 1.83\times { 10 }^{ 2 }\right)  }^{ 2 } } = 5\times { 10 }^{ -3 } (Nm/grad).\]
+Finalmente queda el modelos propuesto:
+\[{ Y }_{ 3 }= 1.032 x+5\times { 10 }^{ -3 } \quad \rightarrow(3) \]
+\\
+\textbf{Tabla de entrada 4.}
+\\
+\begin{figure 7}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+n&$\sum _{ t=1 }^{ n }{ { x }_{ t } } $(grad) & $\sum _{ t=1 }^{ n }{ { y }_{ t } }$(Pa) & $ \sum _{ t=1 }^{ n }{ { y }_{ t } } { x }_{ t }\quad(Pa\cdot grad)$ & $\sum _{ t=1 }^{ n }{ { x }_{ t }^{ 2 } }({ grad }^{ 2 })$ \\ 
+
+\hline 
+10&$1.83\times { 10 }^{ 2 }$& $3.012\times { 10 }^{ 11 }$ & $8.855\times { 10 }^{ 12 }$ & $4.52\times { 10 }^{ 3 }$\\ 
+\hline 
+\end{tabular}
+\end{figure 7} 
+\\
+\\
+De donde:
+\[{a}_{4}=\frac { n\sum _{ t=1 }^{ n }{ { x }_{ t }{ y }_{ t } } -\sum _{ j=1 }^{ n }{ { x }_{ t } } \sum _{ t=1 }^{ n }{ { y }_{ t } }  }{ n\sum _{ t=1 }^{ n }{ { x }_{ t }^{ 2 } } -{ \left( \sum _{ t=1 }^{ n }{ { x }_{ t } }  \right)  }^{ 2 } } \quad y\quad {b}_{4}=\frac { \sum _{ t=1 }^{ n }{ { x }_{ t }^{ 2 } } \sum _{ t=1 }^{ n }{ { y }_{ t } } -\sum _{ t=1 }^{ n }{ { x }_{ t }{ y }_{ t } } \sum _{ t=1 }^{ n }{ { x }_{ t } }  }{ n\sum _{ t=1 }^{ n }{ { x }_{ t }^{ 2 } } -{ \left( \sum _{ t=1 }^{ n }{ { x }_{ t } }  \right)  }^{ 2 } }.\]
+Sustituyendo los valores queda:
+
+\[{a}_{4}=\frac { 10\times 8.855\times { 10 }^{ 12 }-\left[1.83\times { 10 }^{ 2 }\times3.012\times { 10 }^{ 11 } \right]  }{ 10\times 4.52\times { 10 }^{ 3 }-{ \left( 1.83\times { 10 }^{ 2 } \right)  }^{ 2 } } =1\times { 10 }^{ 8 }(Pa/grad).\]
+
+\[{b}_{4}=\frac {4.52\times { 10 }^{ 3 }\times 3.012\times { 10 }^{ 11 }-\left[ 8.855\times { 10 }^{ 12 } 1.83\times { 10 }^{ 2 } \right]  }{ 10\times 4.52\times { 10 }^{ 3 }-{ \left( 1.83\times { 10 }^{ 2 } \right)  }^{ 2 } } = 3\times { 10 }^{ 10 } (Pa).\]
+Finalmente queda el modelos propuesto:
+\[{ Y }_{ 3 }= (1\times { 10 }^{ 8 } )x+ 3\times { 10 }^{ 10 } \quad \rightarrow(4 ). \]
+\\
+De (3) y (4) podemos graficar sus correspondientes lineas de tendencia, a continuaci\'{o}n vamos a graficar su modelo y a tratarlo con m\'{a}s detalle.
+\pagebreak
+
+\\
+\section*{Ajuste por excel.}\\
+Notemos que mientras por medio de c\'{a}alculos pudimos enconrar un modoelo, el programa Excel pudo enontrar otro, es cual se muestra a continuaci\'{o}n.
+
+\begin{figure}[hbtp]
+ \centering
+\includegraphics[width=8cm]{../../../../../../Pictures/ESCLE3.jpg} 
+\includegraphics[width=8cm]{../../../../../../Pictures/Eslce4.jpg}  
+\end{figure}
+Las ecuaciones para la linea punteada de color azul de la figura de la izquierda y derecha respectivamente son ${ Y }_{ 3 }=1.032x+5\times { 10 }^{ -3 }$ y ${ Y }_{ 4 }=(1\times { 10 }^{ 8 } )x+ 3\times { 10 }^{ 10 }$, claramente se puede observar que en las g\'{a}ficas la linea de tendencia no es muy inclinada, es decir, su funci\'{o}n no da un cambio muy grande a lo largo de su dominio, as\'{i} que por simplificaci\'{o}n tomamos su ecuacion como una funci\'{o}n constante, proporcionada por el mismo modelo linal, que ser\'{a} la linea de rojo cuyo valor est\'{a} dado por la intersecciones con el eje Y y que est\'{a} marcado en un circulo rojo. Y as\'{i} tenemos que ${ Y }'_{ 3 }= 1.03$ y ${ Y }'_{ 4 }=3.31\times { 10 }^{ 10 }$. Al aplicar un momento torsional M en el extremo inferior de la barra, \'{e}ste experimenta una deformaci\'{o}n de torsi\'{o}n. Dentro de los l\'{i}mites de validez de la ley de Hooke, el \'{a}ngulo de torsi\'{o}n $\theta$ es directamente proporcional al momento torsional M aplicado, de modo que:
+\[{ k }_{ 2 }= 1.03(Nm/grad)=1.0(Nm/grad)\left( { grad }/{ \left( { 1 }/{ 2\pi rad } \right)  } \right) =2.06(Nm/rad) \quad y \quad { M }_{ 2 }=3.31\times { 10 }^{ 10 }(Pa).\]
+ 
+\section*{Error Porcentual.}\\
+Los valores verdaderos (Taba 1 del marco te\'{o}rico) de los m\'{o}dulos de corte o cizalladura del lat\'{o}n es ${ M }_{ l }=3.5\times { 10 }^{ 10 }Pa$ y su  coeficiente de torsi\'{o}n o m\'{o}dulo el\'{a}stico de torsi\'{o}n es de ${ k }_{ l }=1.76(Nm/rad)$. Entonces, de nuestras mediciones y c\'{a}lculos podemos obtener el error porcentual:
+
+\[{ E }rror\quad porcentual\quad { M }_{ l }=\frac { Error\quad verdadero }{ Valor\quad Verdadero } =\frac { Valor\quad verdadero - Valor\quad aproximado }{ Valor\quad verdadero } \times 100= 23\%. \]
+
+\[{ E }rror\quad porcentual\quad { k }_{ l }=\frac { Error\quad verdadero }{ Valor\quad Verdadero } =\frac { Valor\quad verdadero - Valor\quad aproximado }{ Valor\quad verdadero } \times 100= 55\%. \]
+\\
+ \section*{Discusiones.}\\
+Al llevar acabo este experimento pudimos notar que hubo ciertas fallas, como por ejemplo: la ondulaci\'{o}n del disco no era regular, es decir, al girar el disco, el mismo comenzaba a tambalearse y as\'{i} generaba una p\'{e}rdida en la regularidad de su movimiento. A pesar de eso podemos hacer caso omiso de eso y concentremonos en los resultados, ah\'{i} nos damos cuentra que los valores reales y los del experimento son muy cercanos, as\'{i} que podemos concluir que en ambos, aproximar por promedios arroj\'{o} buenos resultados, sin embargo no podemos decir lo mismo de el coeficiente de torsi\'{o}n ya que los valores cabiaban mucho.
+
+
+
+\end{document}

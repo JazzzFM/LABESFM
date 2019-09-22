@@ -1,0 +1,72 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin2]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Flores Rodguez Jaziel David }
+\title{marcoteorico2}
+\begin{document}
+\section{Marco te\'{o}rico.}
+\textbf{Esfuerzo y deformaci\'{o}n por corte.}\\
+
+\\El tercer tipo de situaci\'{o}n de esfuerzo-deformaci\'{o}n se denomina corte. El list\'{o}n de la Figura 1.c est\'{a} sometido a un \textbf{esfuerzo de corte}: una parte del list\'{o}n se est\'{a} empujando hacia arriba, mientras una parte adyacente se est\'{a} empujando hacia abajo, lo que produce un cambio de forma del list\'{o}n. La Figura 7 muestra un cuerpo deformado por un esfuerzo de corte.\\
+
+\begin{figure 7}
+\centering
+\includegraphics[width=4cm]{../../../../../Pictures/ddddddddddd.jpg} 
+\\
+\caption{Figura 7: Objeto sometido a un esfuerzo de corte. Se aplican fuerzas tangentes a superficies opuestas del objeto (en contraste con la situaci\'{o}n de la Figura 2, donde las fuerzas act\'{u}an perpendiculares a las superficies).Por claridad, se exagera la deformaci\'{o}n x.}
+\end{figure 7}\\
+
+\\En la figura, fuerzas de igual magnitud pero direcci\'{o}n opuesta act\'{u}an de forma tangente a las superficies de extremos opuestos del objeto. Definimos el esfuerzo de corte como la fuerza $F\Vert$ que act\'{u}a tangente a la superficie, dividida entre el \'{a}rea A sobre la que act\'{u}a:\\
+
+\[Esfuerzo\quad de\quad corte=\frac { F }{ A }\longrightarrow (9)\]
+
+Al igual que los otros dos tipos de esfuerzo, el esfuerzo de corte es una fuerza por unidad de \'{a}rea. La figura 7 muestra que una cara del objeto sometido a esfuerzo de corte se desplaza una distancia x relativa a la cara opuesta. Definimos la \textbf{deformaci\'{o}n por corte} como el cociente del desplazamiento x entre la dimensi\'{o}n transversal h:\\
+
+\[Deformaci\'{o}n\quad por\quad corte=\frac { x }{ h}\longrightarrow (10)\]
+
+En situaciones reales, x casi siempre es mucho menor que h. Como todas las deformaciones, la deformaci\'{o}n por corte es un n\'{u}mero adimensional: un cociente de dos longitudes. Si las fuerzas son lo suficientemente peque\~{n}as como para que se obedezca la ley de Hooke, la deformaci\'{o}n por corte es proporcional al esfuerzo de corte. El m\'{o}dulo de elasticidad correspondiente(cociente del esfuerzo de corte entre la deformaci\'{o}n por corte) se denomina m\'{o}dulo de corte y se denota con S:\\
+
+
+\[S=\frac { Esfuerzo\quad de\quad corte }{ Deformaci\'{o}n\quad por\quad corte } =\frac { { F }/{ A } }{ { x }/{ h } } =\frac { F }{ A } \frac { h }{ x } \quad (m\'{o}dulo\quad de\quad corte)\longrightarrow (11)\]\\
+
+Para un material dado, S suele ser de un tercio a un medio del valor del m\'{o}dulo de Young Y para el esfuerzo de tensi\'{o}n. Tenga en cuenta que los conceptos de esfuerzo de corte, deformaci\'{o}n por corte y m\'{o}dulo de corte \'{u}nicamente se aplican a materiales s\'{o}lidos.
+\\
+\begin{figure 8}
+\centering
+\includegraphics[width=12cm]{../../../../../Pictures/tabla1.jpg} 
+\\
+\\
+\caption{La raz\'{o}n es que las fuerzas de corte deben deformar el bloque s\'{o}lido, el cual tiende a regresar a su forma original si se eliminan las fuerzas de corte. En cambio, los gases y l\'{i}quidos no tienen forma definida. Ahora en el caso de una barra, el razoamiento es de manera an\'{a}loga. }
+\end{figure8}
+\\
+\\
+\begin{figure 9}
+\centering
+\includegraphics[width=12cm]{../../../../../Pictures/Arreglogeneral.jpg}
+\\
+\\ 
+\caption{De donde dF e igual a la fuerza neta en la cada cara dA es decir la fracci\'{o}n de la F total aplicada a la barra. }
+\end{figure 9}
+Por lo que un an\'{a}lisis para el esfuerzo cortante ser\'{i}a el siguiente:
+\[{ \sigma  }_{ C }\quad =\frac { dF }{ dA } =\frac { dF }{ 2\pi rdr } \quad y\quad { (Du) }_{ c }=\frac { \Delta x }{ L } =\frac { r\theta  }{ L } \quad (1)\]
+Entonces se defini\'{o} el m\'{o}dulo de cizalladura, debido a la teor\'{i}a anterior, como:
+\[M=\frac { { \varepsilon  }_{ c } }{ { (Du) }_{ c } } =\frac { { dF }/{ 2\pi rdr } }{ { r\theta  }/{ L } } =\frac { dFL }{ 2\pi { r }^{ 2 }\theta dr } \]
+O bien;
+\[dF=\frac { 2\pi \theta M{ r }^{ 2 }dr }{ L } \quad \quad (2)\]
+Para la capa de radio r y espesor dr, entonces: 
+\[\tau =\int _{ 0 }^{ A }{ \frac { 2\pi \theta M{ r }^{ 3 } }{ L }  } dr=\frac { 2\pi \theta M }{ L } \frac { { r }^{ 3 } }{ 4 } \quad { | }_{ 0 }^{ R }\]
+O bien para L, es decir la barra \[\tau =\frac { \pi { R }^{ 4 }M\theta  }{ 2L } \quad \quad (3)\]
+An\'{a}logamente a la Ley de Hooke $F=Kx$, tenemos:
+\[\tau =k\theta \quad \quad (4)\]
+De (3) y (4) se sigue que:
+\[k=\frac { \pi { R }^{ 4 }M }{ 2L } \quad o\quad M=\frac { 2kL }{ \pi { R }^{ 4 } } \]
+Y de la teor\'{i}a del p\'{e}ndulo torsioal tenemos:
+\[T=2\pi \sqrt { \frac { I }{ K }  } \quad o\quad k=\frac { 4{ \pi  }^{ 2 }I }{ { T }^{ 2 } } \]
+Para $\theta$ peque\~{n}o, donde I es el momento de inercia para el cuerpo suspendido. 
+\end{document}
