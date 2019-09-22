@@ -1,2 +1,2 @@
 # LABESFM
-Prácticas en LaTex de Laboratorios de ESFM. 
+Prácticas en LaTex de Laboratorios de ESFM FÍSICA IV. 
