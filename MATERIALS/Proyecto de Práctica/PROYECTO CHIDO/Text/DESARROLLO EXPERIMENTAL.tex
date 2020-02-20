@@ -1,0 +1,70 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\section*{Desarrollo Experimental.}\\
+\textbf{Lista de Materiales:} \\
+Hardware.\\
+1.- PIC16F886.\\
+2.- LCD 16x2 con controlador Hitachi.\\
+3.- Fuente de CC de 5V.\\
+4.- Capacitor electrol\'{i}tico de 100uF (filtrado de se\~{n}ales).\\
+5.- Protoboard.\\
+6.- Sensor LM35.\\
+7.- Potenci\'{o}metro de 10KOhms.\\
+Software.\\
+6.- MikroC IDE.\\
+7.- PicKit2.\\
+\medskip
+\section*{Arreglo experimental.}
+\begin{figure}[hbtp]
+\centering
+\\
+\includegraphics[width=8cm]{../../../../../../Pictures/Poligio.jpg} 
+\includegraphics[width=8.7cm]{../../../../../../Pictures/IMG_20170606_083352420.jpg} 
+\caption{Arreglo general}
+\end{figure} 
+\\
+
+\section*{Procedimiento.}
+\\
+Primera fase: Conexi\'{o}n.\\
+1.- Consiga una fuente estable de 5 V (cargador).\\
+2.- En el protoboard conecte el microcontrolador 16f886 de acuerdo con las conexiones establecidas en el programa.\\
+3.- Conecte el capacitor electrol\'{i}tico en paralelo con la fuente para evitar interferencias, conecte la pantalla LCD de acuerdo al programa (marco te\'{o}rico) y conecte la terminar positiva del led con el positivo de la fuente. \\
+4.- Conecte el sensor LM35 con la entrada Anal\'{o}gica del microcontolador y con los otros dos pines respectivos a la fuente.\\
+Segunda fase:  Medici\'{o}n.\\
+7.- Conecte el term\'{o}metro digital armado y verifique que est\'{e} funcionando correctamente.\\
+8.- Consiga un term\'{o}metro calibrado, mida la temperatura ambiente y compare con la del term\'{o}metro digital.\\
+\medskip
+\\
+\section*{Resultados.}
+En esa ocasi\'{o}n nos proporcionaron el term\'{o}metro calibrdo de mercurio el Laboratorio de f\'{i}sica 2 y cuyos resultados, arrojaron que la temperatura ambiente era de  $25.5\°C$ mienras que la de nuestro term\'{o}metro digital era de $26.37\°C$
+\section*{Error porcentual.}
+Con los valores anteriores recopilador podemos hacer una comparaci\'{o}n por medio del error porcentual.
+\[{ E }rror\quad porcentual\quad { M }_{ c }=\frac { Error\quad verdadero }{ Valor\quad Verdadero } =\frac { Valor\quad verdadero - Valor\quad aproximado }{ Valor\quad verdadero } \times 100= 12.7\%. \]
+\section*{Discusiones.}
+En este proyecto de pr\{a}ctica conseguimos medir la temperatura a partir de las propiedades ele\'{e}ctricas de un  semiconductor, el cual, aunque no se arroj\'{o} un dato del todo preciso, es bastante aceptable porque se encontr\'{o} un error del $12.7\%$. Notamos que podr\'{i}a ser un poco m\'{a}s precisa la medida usando conectores molex hembra- macho, ya que es considerablemente m\'{a}s precisa la lectura cuando nuestro sensor est\'{a} correctamente conectado o tiene buen contacto.
+
+\section*{7. Conclusiones:}\\
+En general, al realizar la pr\'{a}ctica pudimos observar que la propiedad intr\'{i}nseca de los materiales como en este caso a de sus propiedades el\'e{}ctricas de un semi conductor se puede usar para medir otros par\'{a}metros como lo es la temperatura. Se encontraron estos resultados esperados y podemos concluir en que este proyecto de pr\'{a}ctica se realiz\'{o} correctamente. 
+\section*{8. Referencias:}\\
+\\
+\medskip
+\\
+\\1.- Bit\'{a}cora de laboratorio de Flores Rodr\'{i}guez Jaziel David.
+\\
+2.- Manual de pr\'{a}cticas auxilar. Autor: Fco. Havez Varela y las notas del profesor Salvador Tirado Guerra.
+\\
+3.- Fisica Universitaria - Sears - Zemansky - 12ava Edici\'{o}n - Cap\'{i}tulo l7 -2009.\\
+4.- http://pdf1.alldatasheet.com/datasheet-pdf/view/197542/MICROCHIP/PIC16F886.html\\
+5.-http://www.ti.com/lit/ds/symlink/lm35.pdf\\
+\end{document}
+
+\end{document}

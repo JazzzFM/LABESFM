@@ -1,0 +1,125 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\section*{Desarrollo Experimental.}\\
+\textbf{Lista de Materiales:} \\
+Tubo met\'{a}lico en el que se han hecho orificios.\\
+Gas inflamable.\\
+Generador de frecuencias.\\
+Altavoz.\\
+
+\section*{Arreglo experimenal.}
+\begin{figure}[hbtp]
+\centering
+\\
+ \includegraphics[width=9cm]{../../../../../../Pictures/IMG_20170328_113246074.jpg} 
+ \includegraphics[width=9cm]{../../../../../../Pictures/IMG_20170328_124652633.jpg} 
+\caption{Arreglo general. El dispositivo experimental consta de un tubo de cobre de longitud aproximadamente 100 cm y di\'{a}metro exterior 2 cm. La distancia entre los orificios es de 2.0 cm. Acoplado en su extremo se ha colocado un altavoz circular. El altavoz es alimentado por un oscilador disponible en el laboratorio. El tubo est\'{a} conectado por ambos extremos a una bombona de gas butano. Se conecta el oscilador a la frecuencia adecuada y el gas que se hace circular por el tubo, al inflamarse, reproduce el patr\'{o}n de ondas estacionarias en el que se observan los nodos y vientres. }
+\end{figure} 
+\\
+
+\section*{Procedimiento.}
+1.- Abrir el gas y encender las llamas.\\
+2.-	Variar la frecuencia y encontrar una estacionaria.\\
+3.- Medir la distancia d entre dos nodos sucesivos y calcular $\lambda$.\\
+4.- Seguir variando la frecuencia f para encontrar el mayor n\'{u}ero de estacionarias posibles y calcular $\lambda$ en cada ocasi\'{o}n. \\
+5.- Llenar la abla de a continuaci\'{o}n. Graficar f y $\lambda$, y ajustar para encontrar la velocidad del sonido.\\
+Lo primero que hicimos fue abrir el gas para que empezara a circular por el tubo, as\'{i} el gas empezara a salir por los agujerillos y al cabo de unos instantes se prendiera el tubo y se modificaba adecuadamente el valor de la frecuencia. Se subi\'{o} la amplitud y as\'{i}, el gas inflamado reproduce el perfil de amplitud de la onda estacionaria. Esto se hac\'{i}a para diferentes frecuencias.
+\medskip
+\section*{Resultados.}
+\\
+Se sabe que la velocidad del sonido v est\'{a} dada por la ecuaci\'{o}n: $v= \gamma f$. Entonces analizando los datos obtenidos experimentalmente por tablas se tiene que:
+\medskip
+\begin{figure 2}
+\caption{\textbf{Tabla 1.}}
+\\
+\centering
+\includegraphics[width=6.5cm]{../../../../../../Pictures/eeeeeeeeeeeeeeee1.jpg} 
+\\
+\end{figure 2}
+\\
+\medskip
+Modificando los datos para graficar la velocidad del sonido en funci\'{o}n de la longitud de onda contra frecuencia.\\
+\medskip
+\\
+\\
+\begin{figure 3}
+\caption{\textbf{Tabla 2.}}
+\\
+\centering
+\includegraphics[width=5cm]{../../../../../../Pictures/eeeeeeeeeeeee4.jpg} 
+\\
+\end{figure 3}
+\\
+\section*{Gr\'{a}fica de dispersi\'{o}n}
+\\
+\\
+\begin{figure 5}
+\centering
+\includegraphics[width=9cm]{../../../../../../Pictures/DISPE.jpg} 
+\\
+\caption{Gr\'{a}ficos de dispersi\'o}n del lugar geom\'{e}trico de la frecuencia y la longitud de onda.}
+\end{figure 5}
+\\ 
+\medskip
+\section*{Ajuste de datos.}\\
+Por el Apr\'{e}ndice 1 podemos hacer el respectivo ajuste por el m\'{e}todo de m\'{i}nimos cuadrados para encontrar un modelo lineal $Y=ax +b$ tales que $\left( { x }_{ i },{ y }_{ i } \right) \rightarrow \left( 1/\lambda( 1/m ),{ f (1/s))$  de los datos del experimento, cuya tablas de entrada y modelo es el siguiente:
+\medskip
+\\
+\textbf{Tabla de entrada.}
+\\
+\begin{figure 6}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+n&$\sum _{ i=1 }^{ n }{ { x }_{ i } } ( 1/m )$ & $\sum _{ i=1 }^{ n }{ { y }_{ i } }(1/s)$ & $ \sum _{ i=1 }^{ n }{ { y }_{ i } } { x }_{ i }(1/ms)$ & $\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } }({ 1/s }^{ 2 })$ \\ 
+
+\hline 
+6&$ 14.548$& $4925.0$ & $12892$ & $38.047E$\\ 
+\hline 
+\end{tabular}
+\end{figure 6} 
+\\
+\\
+De donde:
+\[a=\frac { n\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i } } \sum _{ i=1 }^{ n }{ { y }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } } \quad y\quad b=\frac { \sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } \sum _{ i=1 }^{ n }{ { y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } \sum _{ i=1 }^{ n }{ { x }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } }.\]
+Sustituyendo los valores queda:
+
+\[a=\frac { (6(1.2892\times { 10 }^{ 4 })\left[ 1/ms \right] -((4925.0)(14.548))\left[ 1/ms \right]  }{ 6(38.047){ \left[ 1/m \right]  }^{ 2 }-(211.65){ \left[ 1/m \right]  }^{ 2 } } =342.72\left[ m/s \right]. \]
+
+\[b=\frac { ((38.047)(4925.0))\left[ 1/{ m }^{ 2 }s \right] -((14.548)(1.2892\times { 10 }^{ 4 }))\left[ 1/{ m }^{ 2 }s \right]  }{ { 6(38.047){ \left[ 1/m \right]  }^{ 2 }-(211.65){ \left[ 1/m \right]  }^{ 2 } } } =-10.165[1/s].\]
+Finalmente queda el modelos propuesto:
+\[ Y= 342.72x - 10.165  \quad \rightarrow(1) \]
+\section*{Ajuste por excel.}\\
+Notemos que mientras por medio de c\'{a}alculos pudimos enconrar un modoelo, el programa Excel pudo enontrar otro, es cual se muestra a continuaci\'{o}n.
+\\
+\begin{figure}[hbtp]
+ \centering
+\includegraphics[width=9cm]{../../../../../../Pictures/pepepepfszfsasfSFa.jpg} 
+\end{figure}
+\\
+
+
+\section*{Error Porcentual.}\\
+Para calcular el error porcentual se hace la diferencia entre la velocidad experimental y la te\'{o}rica y de esto, el cociente de la te\'{o}rica, esto es:
+
+\[{ E }rror\quad porcentual =\frac { Valor\quad verdadero - Valor\quad aproximado }{ Valor\quad verdadero } \times 100=|(343-342.72)/343|*100 = 0.081\%. \]
+
+\\
+ \section*{Discusiones.}\\
+ La experiencia no debe realizarse en lugares cerrados y ni en los que existan corrientes de aire. El tubo debe colocarse en posici\'{o}n perfectamente horizontal para que el gas se distribuya uniformemente. El dispositivo no debe permanecer encendido demasiado tiempo, pues debido a la alta conductividad del cobre el altavoz podr\'{i}a da\~{n}arse.
+ 
+ 
+ 
+ 
+
+
+
+\end{document}

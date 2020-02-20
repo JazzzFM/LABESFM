@@ -1,0 +1,135 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\section*{Desarrollo Experimental.}\\
+\textbf{Lista de Materiales:} \\
+Instrumento de laboratorio (cilindros conc\'{e}ntricos)\\
+Cron\'{o}metro con detector de movimiento. \\
+Aceite de motor SAE 40. \\
+Polea y cuerda sujetadas a los cilindros. \\
+Pesa con gancho para sujetar.
+\section*{Arreglo experimenal.}
+\begin{figure}[hbtp]
+\centering
+\\
+\includegraphics[width=11cm]{../../../../../../Pictures/erreglo.jpg} 
+\caption{Arreglo general}
+\end{figure} 
+\\
+\begin{figure}[hbtp]
+\centering
+\\
+\includegraphics[width=10cm]{../../../../../../Pictures/asfasf.jpg} 
+\caption{Variaci\'{o}n de la temperaura del fluido hasta un punto y luego bajarla con compresas.} 
+\end{figure} 
+\\
+\pagebreak
+
+\section*{Procedimiento.}
+1.-Medir los par\'{a}metros iniciales r, $\omega$, ${R}_{1}$, ${R}_{2}$, l y h para que as\'{i} calcular $\beta$\\
+2.-Calentar a ba\~{n}o Mar\'{i}a hasta que hierva el agua.\\
+3.-Medir la temperatura del aceite y sacar y term\'{o}metro. \\
+4.-Soltar la pesita, y registrar el tiempo t del cron\'{o}metro.\\
+5.-Dejar bajar la temperatura y repetir 10 o 12 veces.\\
+6.-Llenar la tabla y graficar  .\\
+\section*{Resultados.}
+\\
+Comenzamos la pr\'{a}ctica con ell material proporcionado por el equipo de laboratorio, procedimos a medir algunas de nuestras constantes como lo son; el radio del tambor giratorio $r=7.83{ 10 }^{ -3 } m $, masa de la pesita $m=13.6\times { 10 }^{ -3 } kg$, y por el medio de las ecuaciones del marco te\'{o}rico se obtuvo la rapidez angular $\omega=113.6 grad/s$, la altura h dela pesita  $h=118.5\times { 10 }^{ -3 } m$, la longitud l del cilindro experior $l=144\times { 10 }^{ -3 }m $, los radios interior y exterior  $R_{1}=23.88\times { 10 }^{ -3 } m$ y $R_{2}=32.09\times { 10 }^{ -3 } m$ respectivamente, y en consecuencia, por medio de los calculos justificados en el marco te\'{o}rico $\beta=28.529\times { 10 }^{ -3 } Pa$. Llenamos la Tabla 1 proporcionada para despu\'{e}s  graficar $\eta $ vs T, y ajustar para calcular  $\eta= \eta (T)$, es decir encontrar una dependencia de la viscosidad con respecto a la temperatura del fluido.
+\\
+\\
+
+\begin{figure 2}
+\caption{\textbf{Tabla 1.}}
+\\
+\centering
+\includegraphics[width=8cm]{../../../../../../Pictures/P2.jpg}     
+\\
+\end{figure 2}
+\\
+\medskip
+De las cuales extragimos los siguientes datos de la siguiente tabla para poder hacer la gr\'{a}fica $\eta vs T$.
+\medskip
+\\
+\begin{figure 3}
+\caption{\textbf{Tabla 2.}}
+\\
+\centering
+\includegraphics[width=5cm]{../../../../../../Pictures/p3.jpg} 
+\\
+\caption{Datos tabulados para graficar.}
+\end{figure 3}
+\\
+\section*{Gr\'{a}fica de dispersi\'{o}n}
+\\
+\\
+\begin{figure 5}
+
+\centering
+\includegraphics[width=10cm]{../../../../../../Pictures/FDHFJDFHS.jpg} 
+\\
+\caption{Gr\'{a}fico de dispersi\'o}n para los datos de la viscosidad variando la temperatura.}
+\end{figure 5}
+\\
+\\
+Notemos que nuestra gr\'{a}fica de dispersi\'{o}n no toma ninguna forma ni funci\'{o}n conocidad, as\'{i} que por el momento con la herrramientas con las que contamos hasta ahora solo podremos darle una forma, a la dispersi\'{o}n de puntos, a la de una funci\'{o}n lineal.
+\\ 
+\section*{Ajuste de datos.}\\
+Por el Apr\'{e}ndice 1 podemos hacer el respectivo ajuste por el m\'{e}todo de m\'{i}nimos cuadrados para encontrar un modelo lineal $Y=ax +b$ tales que $\left( { x }_{ i },{ y }_{ i } \right) \rightarrow \left( T( \°C ),{\eta (Pa\cdot s))$  de los datos del experimento, cuya tablas de entrada y modelo es el siguiente:
+\medskip
+\\
+\textbf{Tabla de entrada.}
+\\
+\begin{figure 6}
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+n&$\sum _{ i=1 }^{ n }{ { x }_{ i } } ( \°C )$ & $\sum _{ i=1 }^{ n }{ { y }_{ i } }(Pa\cdot s)$ & $ \sum _{ i=1 }^{ n }{ { y }_{ i } } { x }_{ i }(Pa \cdot s \cdot \°C)$ & $\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } }({ \°C }^{ 2 })$ \\ 
+
+\hline 
+11&$ 630 $& $2.48\times { 10 }^{ -1 }$ & $12.11709935$ & $34362$\\ 
+\hline 
+\end{tabular}
+\end{figure 6} 
+\\
+\\
+De donde:
+\[a=\frac { n\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i } } \sum _{ i=1 }^{ n }{ { y }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } } \quad y\quad b=\frac { \sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } \sum _{ i=1 }^{ n }{ { y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } \sum _{ i=1 }^{ n }{ { x }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } }.\]
+Sustituyendo los valores queda:
+
+\[{ a }=\frac { (12\times 12.11709935\left[ Pa\cdot s\cdot \°C \right] )-(6.3\times { 10 }^{ 2 }\times 2.48\times { 10 }^{ -1 }\left[ Pa\cdot s\cdot \°C \right] ) }{ (1234362\left[ { \°C }^{ 2 } \right] )-{ \left( 6.3\times { 10 }^{ 2 }\left[ \°C \right]  \right)  }^{ 2 } } ={ -7.04\times 10 }^{ -4 }\left[ { Pa\cdot s }/{ \°C } \right].\]
+
+\[{ b }=\frac { (34362\times 2.48\times { 10 }^{ -1 }\left[ Pa\cdot s\cdot { \°C }^{ 2 } \right] )-(12.11709935\times 630\left[ Pa\cdot s\cdot { \°C }^{ 2 } \right] ) }{ (1234362\left[ { \°C }^{ 2 } \right] )-{ \left( 6.3\times { 10 }^{ 2 }\left[ \°C \right]  \right)  }^{ 2 } } =5.76\times { 10 }^{ -2 }\left[ Pa\cdot s \right].\]
+Finalmente queda el modelos propuesto:
+\[ Y= -7.04\times 10 }^{ -4 }x + 5.76\times { 10 }^{ -2 }  \quad \rightarrow(1) \]
+De (1)  podemos graficar sus correspondientes lineas de tendencia, a continuaci\'{o}n vamos a graficar su modelo y a tratarlo con m\'{a}s detalle.
+\pagebreak
+
+\section*{Ajuste por excel.}\\
+Notemos que mientras por medio de c\'{a}alculos pudimos enconrar un modoelo, el programa Excel pudo enontrar otro, es cual se muestra a continuaci\'{o}n.
+\\
+\begin{figure}[hbtp]
+ \centering
+\includegraphics[width=10cm]{../../../../../../Pictures/PPPPP.jpg} 
+\end{figure}
+\\
+Por la ecuaci\'{o}n anterior se tiene que $\eta= \eta (T) = {-7.04\times 10 }^{ -4 }(T) + 5.76\times { 10 }^{ -2 }$ y as\'{i} se logra obtener una relacio\'{o}n entre la viscosidad y la temperatura. Cabe resaltar que aunque el comportamiento de los puntos de dispersi\'{o}n era muy inusual, es decir,claramente no muestra un coportamiento lineal ni logar\'{i}tmico, aunque s\'{i} el de una funci\'{o}n estrictamente decreciente como se esperaba de acuerdo a nuestras hip\'{o}tesis, la viscosidad en un fluido disminu\'{i}a mientras aumentaba la temperatura, as\'{i} conjeturamos un comportamiento de la viscosidad del aceite en un rango de temperatura, y cuya ecuaci\'{o}n, remarcamos es :
+\[ \eta (T) = {-7.04\times 10 }^{ -4 }(T) + 5.76\times { 10 }^{ -2 }. \]
+\\
+\section*{Error Porcentual.}\\
+Los valores verdaderos de la viscosidad del aceite SAE 40 (los cuales se encuentran en la tabla 1 del marco te\'{o}rico) a una temperaturamenor que $100 \°C$ debe ser menor que 16.3 cp (cp es una unidad de viscosidad denominada centi Poise, donde 1 centipoise = $1\times 10 }^{ -3 } Pa\cdots$. Entonces, de nuestras mediciones y c\'{a}lculos con un valor en nuestra ecuaci\'{o}n hallada de $59\°C$ {que claramente cumple con la condici\'{o}n de que sea menor a $100\°C$ y esta nos arroja un valor de 16.06 cp, un valor muy cercano al verdadero, y as\'{i} que podemos obtener el error porcentual, usando el rango de valores los cuales no cumple la condici\'{o}n:
+
+\[{ E }rror\quad porcentual\quad { M }_{ c }=\frac { Error\quad verdadero }{ Valor\quad Verdadero } =\frac { Valor\quad verdadero - Valor\quad aproximado }{ Valor\quad verdadero } \times 100= 38.65\%. \]
+\\
+ \section*{Discusiones.}\\
+Al llevar acabo este experimento pudimos notar que hubo ciertas fallas con la calibraci\'{o}n del instrumento, ya que en algunas ocasiones el cron\'{o}metro no se deten\'{i}a cuando la pesita psaba por el sensor de movimiento, cabe resaltar que la polea no era una polea ideal ya que al menos yo la sent\'{i} y esta ten\'{i} bastante fricci\'{o}n y lo mejor que pudimos hacer fu\'{e} limpiarla. Fuera de eso el comportamiento de nuestra funci\'{o}n lineal propuesta fue bastante buena, aunque pudimos hacerla mejor con un ajuste logaritmico, dado que estos materiales son muy usados en la industria lo mejor ser\'{i}a buscar la mejor geometr\'{i}a del arreglo para cada tipo de fluido. Finalmente se logr\'{o} encontrar que en nuestra ecuaci\'{o}n de tendencia que era bastante buena, no del todo, pero confirmaba nuestras hip\'{o}tesis al comportamiento del fuido con respecto  de la temperatura. 
+
+
+
+\end{document}

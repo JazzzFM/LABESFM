@@ -1,0 +1,1579 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.11.12)  30 APR 2017 22:24
+entering extended mode
+**"./Desarrollo exp.tex"
+("Desarrollo exp.tex"
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\LaTex\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\LaTex\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\LaTex\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\LaTex\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+("C:\Program Files\LaTex\tex\generic\babel\babel.sty"
+Package: babel 2016/04/23 3.9r The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Lnvo-PC\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\LaTex\tex\latex\babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("C:\Program Files\LaTex\tex\generic\babel\babel.def"
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@quottoks=\toks16
+\es@quotdepth=\count88
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Program Files\LaTex\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/06/28 v2.15d AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\LaTex\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\LaTex\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen104
+))
+("C:\Program Files\LaTex\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+("C:\Program Files\LaTex\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+("C:\Program Files\LaTex\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\LaTex\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\LaTex\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\LaTex\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+("C:\Program Files\LaTex\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\LaTex\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\LaTex\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\LaTex\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+
+("C:\Program Files\LaTex\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\LaTex\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+("C:\Program Files\LaTex\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\LaTex\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+("C:\Program Files\LaTex\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\LaTex\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks23
+
+("C:\Program Files\LaTex\tex\latex\geometry\geometry.cfg")) ("Desarrollo exp.au
+x"
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+\openout1 = `"Desarrollo exp.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (C:\Users\Lnvo-PC\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen123
+\scratchbox=\box28
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen124
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks25
+) ("C:\Program Files\LaTex\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\LaTex\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\LaTex\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\LaTex\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\LaTex\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\LaTex\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\LaTex\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\LaTex\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \textbf
+            {Lista de Materiales:} \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--25
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/dddddd.jpg, id=1, 471.26062pt x 385.44pt>
+File: ../../../../../../Pictures/dddddd.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/dddddd.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/dddddd.jpg used on input li
+ne 29.
+(pdftex.def)             Requested size: 284.52756pt x 232.71259pt.
+
+<../../../../../../Pictures/xxxxxxxxxxxxxxxxxx.jpg, id=2, 2932.9575pt x 1511.64
+75pt>
+File: ../../../../../../Pictures/xxxxxxxxxxxxxxxxxx.jpg Graphic file (type jpg)
+
+ <use ../../../../../../Pictures/xxxxxxxxxxxxxxxxxx.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/xxxxxxxxxxxxxxxxxx.jpg used
+ on input line 35.
+(pdftex.def)             Requested size: 312.9803pt x 161.29951pt.
+
+<../../../../../../Pictures/16651396_1391761460896440_996823809_o.jpg, id=3, 13
+36.995pt x 1782.66pt>
+File: ../../../../../../Pictures/16651396_1391761460896440_996823809_o.jpg Grap
+hic file (type jpg)
+
+<use ../../../../../../Pictures/16651396_1391761460896440_996823809_o.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/16651396_1391761460896440_9
+96823809_o.jpg used on input line 41.
+(pdftex.def)             Requested size: 199.16928pt x 265.53778pt.
+
+<../../../../../../Pictures/ssssssss.jpg, id=4, 3128.68875pt x 1132.23pt>
+File: ../../../../../../Pictures/ssssssss.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/ssssssss.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/ssssssss.jpg used on input 
+line 47.
+(pdftex.def)             Requested size: 483.69684pt x 175.04465pt.
+ [1
+
+{C:/Users/Lnvo-PC/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../../../
+../../../Pictures/dddddd.jpg> <../../../../../../Pictures/xxxxxxxxxxxxxxxxxx.jp
+g>] [2 <../../../../../../Pictures/16651396_1391761460896440_996823809_o.jpg> <
+../../../../../../Pictures/ssssssss.jpg>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 58.
+ ("C:\Program Files\LaTex\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 58.
+
+("C:\Program Files\LaTex\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 52--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--61
+
+ []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \caption
+             {Tabla 1.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--77
+
+ []
+
+
+! LaTeX Error: Environment figure 2 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 \begin{figure 2}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/momomom1.jpg, id=15, 613.54219pt x 234.1247pt>
+File: ../../../../../../Pictures/momomom1.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/momomom1.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/momomom1.jpg used on input 
+line 85.
+(pdftex.def)             Requested size: 398.33858pt x 152.00418pt.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 2}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 \end{figure 2}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 D
+      e la cual extragimos los datos de la siguiente tabla para poder hacer ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure 3 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \begin{figure 3}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/momomomeo2.jpg, id=16, 204.765pt x 232.61906pt>
+File: ../../../../../../Pictures/momomomeo2.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/momomomeo2.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/momomomeo2.jpg used on inpu
+t line 95.
+(pdftex.def)             Requested size: 113.81102pt x 129.29677pt.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 3}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 \end{figure 3}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 \section
+             *{Gr\'{a}fica de dispersi\'{o}n}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \begin
+            {figure 5}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure 5 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \begin{figure 5}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/MOMOMO3.jpg, id=17, 450.9347pt x 253.69781pt>
+File: ../../../../../../Pictures/MOMOMO3.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/MOMOMO3.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/MOMOMO3.jpg used on input l
+ine 104.
+(pdftex.def)             Requested size: 284.52756pt x 160.08595pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \caption
+              {Gr\'{a}fico de dispersi\'o}n para el m\'{e}todo \'{o}ptico.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[3 <../../../../../../Pictures/momomom1.jpg> <../../../../../../Pictures/momomo
+meo2.jpg>]
+! Extra }, or forgotten \endgroup.
+l.106 ...ersi\'o}n para el m\'{e}todo \'{o}ptico.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 5}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 \end{figure 5}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 P
+       or el Apr\'{e}ndice 1 podemos hacer el respectivo ajuste por el m\'{e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure 6 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \begin{figure 6}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 6}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \end{figure 6}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--132
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139 C
+       omo la pendiente de la recta a tangente a la curva misma nos represen...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 140.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.140 ...psilon t }{ (Du)t } =\quad Y\quad (M\'{o}
+                                                  dulo\quad de\quad Young).\]
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.140 ...psilon t }{ (Du)t } =\quad Y\quad (M\'{o}
+                                                  dulo\quad de\quad Young).\]
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no è in font cmex10!
+! Extra }, or forgotten $.
+l.141 ...Young del material es: $Y=6.67\times 10 }
+                                                  ^{ 10 }\left[ Pa \right] .$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[4 <../../../../../../Pictures/MOMOMO3.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 L
+       os valores verdaderos (Tabla 1) de los m\'{o}dulos de Young del cobre...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 N
+       otemos que mientras por medio de c\'{a}alculos pudimos enconrar un mo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+<../../../../../../Pictures/KKKKKKKKKKK.jpg, id=30, 568.37344pt x 359.84438pt>
+File: ../../../../../../Pictures/KKKKKKKKKKK.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/KKKKKKKKKKK.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/KKKKKKKKKKK.jpg used on inp
+ut line 153.
+(pdftex.def)             Requested size: 312.9803pt x 198.1566pt.
+ [5 <../../../../../../Pictures/KKKKKKKKKKK.jpg>]
+
+! LaTeX Error: Environment figure 9 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \begin{figure 9}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+<../../../../../../Pictures/ELASTICIDAD23.jpg, id=34, 269.50688pt x 222.8325pt>
+File: ../../../../../../Pictures/ELASTICIDAD23.jpg Graphic file (type jpg)
+<use ../../../../../../Pictures/ELASTICIDAD23.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/ELASTICIDAD23.jpg used on i
+nput line 165.
+(pdftex.def)             Requested size: 113.81102pt x 94.10243pt.
+
+<../../../../../../Pictures/ELASTICIDAD24.jpg, id=35, 272.51813pt x 193.47281pt
+>
+File: ../../../../../../Pictures/ELASTICIDAD24.jpg Graphic file (type jpg)
+ <use ../../../../../../Pictures/ELASTICIDAD24.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/ELASTICIDAD24.jpg used on i
+nput line 166.
+(pdftex.def)             Requested size: 128.0374pt x 90.89975pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 \caption
+              {Tablas de las cuales se analizar\'{a} los bloques de datos.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 9}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{figure 9}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.173 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \begin
+            {figure 5}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure 5 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \begin{figure 5}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/MOMOMO31.jpg, id=36, 450.9347pt x 253.69781pt>
+File: ../../../../../../Pictures/MOMOMO31.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/MOMOMO31.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/MOMOMO31.jpg used on input 
+line 176.
+(pdftex.def)             Requested size: 284.52756pt x 160.08595pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \caption
+              {Gr\'{a}fico de dispersi\'o}n para el m\'{e}todo \'{o}ptico.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten \endgroup.
+l.178 ...ersi\'o}n para el m\'{e}todo \'{o}ptico.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 5}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \end{figure 5}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 P
+       or el Apr\'{e}ndice 1 podemos hacer el respectivo ajuste por el m\'{e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure 6 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 \begin{figure 6}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 6}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 \end{figure 6}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--201
+
+ []
+
+[6 <../../../../../../Pictures/ELASTICIDAD23.jpg> <../../../../../../Pictures/E
+LASTICIDAD24.jpg> <../../../../../../Pictures/MOMOMO31.jpg>]
+
+LaTeX Warning: Command \' invalid in math mode on input line 211.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.211 ...psilon t }{ (Du)t } =\quad Y\quad (M\'{o}
+                                                  dulo\quad de\quad Young).\]
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.211 ...psilon t }{ (Du)t } =\quad Y\quad (M\'{o}
+                                                  dulo\quad de\quad Young).\]
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no è in font cmex10!
+
+! LaTeX Error: Environment figure 6 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.219 \begin{figure 6}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 6}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 \end{figure 6}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--232
+
+ []
+
+! Extra }, or forgotten $.
+l.239 \[{ Y }_{ 2 }= -3.41\times 10 }
+                                     ^{ 7 } + { 1.31\times 10 }^{ 11 }x\quad...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 242.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.242 ...psilon t }{ (Du)t } =\quad Y\quad (M\'{o}
+                                                  dulo\quad de\quad Young).\]
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.242 ...psilon t }{ (Du)t } =\quad Y\quad (M\'{o}
+                                                  dulo\quad de\quad Young).\]
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no è in font cmex10!
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 L
+       os valores verdaderos (Taba 1) de los m\'{o}dulos de Young del cobre ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 N
+       otemos que mientras por medio de c\'{a}alculos pudimos enconrar un mo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/EXELASTI.jpg, id=40, 350.81062pt x 212.29312pt>
+File: ../../../../../../Pictures/EXELASTI.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/EXELASTI.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/EXELASTI.jpg used on input 
+line 257.
+(pdftex.def)             Requested size: 227.62204pt x 137.74918pt.
+
+<../../../../../../Pictures/EXELASTI2.jpg, id=41, 350.81062pt x 212.29312pt>
+File: ../../../../../../Pictures/EXELASTI2.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/EXELASTI2.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/EXELASTI2.jpg used on input
+ line 258.
+(pdftex.def)             Requested size: 227.62204pt x 137.74918pt.
+ [7]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267 A
+       l llevar acabo este experimento pudimos notar que hubo ciertas fallas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[8 <../../../../../../Pictures/EXELASTI.jpg> <../../../../../../Pictures/EXELAS
+TI2.jpg>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.271 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/general.jpg, id=49, 290.58563pt x 371.88937pt>
+File: ../../../../../../Pictures/general.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/general.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/general.jpg used on input l
+ine 274.
+(pdftex.def)             Requested size: 170.71652pt x 218.4822pt.
+
+<../../../../../../Pictures/jhhhfajsfhf.jpg, id=50, 3017.2725pt x 5364.04pt>
+File: ../../../../../../Pictures/jhhhfajsfhf.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/jhhhfajsfhf.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/jhhhfajsfhf.jpg used on inp
+ut line 280.
+(pdftex.def)             Requested size: 142.26378pt x 252.91203pt.
+ [9 <../../../../../../Pictures/general.jpg> <../../../../../../Pictures/jhhhfa
+jsfhf.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 286--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--293
+
+ []
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.301 \caption
+              {Tabla 1.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--310
+
+ []
+
+
+! LaTeX Error: Environment figure 2 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 \begin{figure 2}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/popopop.jpg, id=54, 429.10312pt x 197.98969pt>
+File: ../../../../../../Pictures/popopop.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/popopop.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/popopop.jpg used on input l
+ine 319.
+(pdftex.def)             Requested size: 341.43306pt x 157.54001pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.321 \caption
+              {De la cual extragimos los datos de la siguiente tabla para po...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 2}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.322 \end{figure 2}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure 3 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.324 \begin{figure 3}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.326 \caption
+              {\textbf{Tabla 3.}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+<../../../../../../Pictures/fgqhwregnetw.jpg, id=55, 201.00093pt x 234.1247pt>
+File: ../../../../../../Pictures/fgqhwregnetw.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/fgqhwregnetw.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/fgqhwregnetw.jpg used on in
+put line 328.
+(pdftex.def)             Requested size: 170.71652pt x 198.84973pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.330 \caption
+              {Datos extra\'{i}dos.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 3}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331 \end{figure 3}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \section
+              *{Gr\'{a}fica de dispersi\'{o}n}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 \begin
+            {figure 5}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure 5 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 \begin{figure 5}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+<../../../../../../Pictures/rrrrrrrrrrrrr.jpg, id=56, 493.845pt x 258.21469pt>
+File: ../../../../../../Pictures/rrrrrrrrrrrrr.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/rrrrrrrrrrrrr.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/rrrrrrrrrrrrr.jpg used on i
+nput line 340.
+(pdftex.def)             Requested size: 256.0748pt x 133.89021pt.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.342 \caption
+              {Gr\'{a}fico de dispersi\'o}n para el m\'{e}todo de nivel.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[10 <../../../../../../Pictures/popopop.jpg> <../../../../../../Pictures/fgqhwr
+egnetw.jpg>]
+! Extra }, or forgotten \endgroup.
+l.342 ...spersi\'o}n para el m\'{e}todo de nivel.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 5}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.343 \end{figure 5}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--346
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.349 P
+       or el Apr\'{e}ndice 1 podemos hacer el respectivo ajuste por el m\'{e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 \caption
+              {Tabla de entrada 2.}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment figure 6 undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 \begin{figure 6}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+l.364 ...{ { x }_{ i }^{ 2 } }\left( Ad \right)  }
+                                                  ^{ 2 }$ \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 6}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.369 \end{figure 6}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--371
+
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{figure 6}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.372 \end{figure 6}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.372 \end{figure 6}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 \medskip
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 384.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.384 ...psilon t }{ (Du)t } =\quad Y\quad (M\'{o}
+                                                  dulo\quad de\quad Young).\]
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in display math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.384 ...psilon t }{ (Du)t } =\quad Y\quad (M\'{o}
+                                                  dulo\quad de\quad Young).\]
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no è in font cmex10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--387
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.388 L
+       os valores verdaderos de los m\'{o}dulos de Young del lat\'{o}n es ${...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[11 <../../../../../../Pictures/rrrrrrrrrrrrr.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 390--392
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.393 N
+       otemos que mientras por medio de c\'{a}alculos pudimos enconrar un mo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<../../../../../../Pictures/fefeffef.jpg, id=63, 569.12625pt x 322.20375pt>
+File: ../../../../../../Pictures/fefeffef.jpg Graphic file (type jpg)
+
+<use ../../../../../../Pictures/fefeffef.jpg>
+Package pdftex.def Info: ../../../../../../Pictures/fefeffef.jpg used on input 
+line 397.
+(pdftex.def)             Requested size: 256.0748pt x 144.98051pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.404  A
+        l llevar acabo este experimento pudimos notar que hubo ciertas falla...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[12 <../../../../../../Pictures/fefeffef.jpg>] ("Desarrollo exp.aux"
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+) ) 
+Here is how much of TeX's memory you used:
+ 3801 strings out of 493334
+ 52684 string characters out of 3141395
+ 130943 words of memory out of 3000000
+ 7260 multiletter control sequences out of 15000+200000
+ 6252 words of font info for 25 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,9n,30p,1072b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/LaTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
+m Files/LaTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/LaTex
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/LaTex/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Program Files/LaTex/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb><C:/Program Files/LaTex/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Program Files/LaTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
+iles/LaTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/LaTex/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Desarrollo exp.pdf" (12 pages, 8542008 bytes).
+PDF statistics:
+ 96 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+

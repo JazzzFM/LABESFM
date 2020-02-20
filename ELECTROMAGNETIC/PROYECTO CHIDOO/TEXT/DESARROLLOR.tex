@@ -1,0 +1,130 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Flores Rodguez Jaziel David }
+\title{Pr\'{a}ctica 1}
+\begin{document}
+
+\tableofcontents
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+\\
+\medskip
+\medskip
+\section{Resumen.}
+\\
+En esta pr\'{a}ctica se encuentra la existencia de una relaci\'{o}n entre la resistencia de un material y su reacci\'{o}n sometido a los cambios de ambiente como lo es en este caso un gas (alcohol), se da una medida a esa relaci\'{o}n y se explica de manera te\'{o}rica como es que funciona. Se observa que hacer aproximaciones sin los instrumentos adecuados nos lleva a errores bastante grandes. Y se menciona la importancia de la calibraci\'{o}n. \\
+\medskip
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Objetivos.}\\
+Estudiar la relaci\'{o}n entre la reistencia variable de un material con respecto a un tipo de gas o varios y darle una medida y as\'{i} dise\~{n}ar un instrumento de medici\'{o}n s\'{o}lo con principios b\'{a}sicos de programaci\'{o}n en C y circuitos.
+ 
+\\
+\pagebreak
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+\section{Metodolog\'{i}a.}
+Los dispositivos el\'{e}ctricos sensores (t\'{e}rmicos, de humedad, o de humo) se aprovechan de los cambios en las propiedades el\'{e}ctricas de los materiales, como la resistencia. El sensor MQ-2 utiliza como material sensible ${SnO}_{2}$ el cual reduce su conductividad en aire limpio. El sensor MQ-2 tiene alta sensibilidad al gas L.P., alcohol, al propano y al hidr\'{o}geno; tambi\'{e}n puede ser utilizado con metano y con humo. La resistencia del sensor ${R}_{s}$ va de 2 k$\Omega$ a 20 k$\Omega$ y el rango del sensor va desde 300 a 10 000 ppm.
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=7cm]{../../../../../../Pictures/PRaCTICA4T74EWFHUHFDUAS.jpg} 
+\caption{Configuraci\'{o}n del sensor.}
+\end{figure}
+\\
+Un \textbf{microcontrolador} (abreviado $\mu$C, UC o MCU) es un circuito integrado programable, capaz de ejecutar las \'{o}rdenes grabadas en su memoria. Est\'{a} compuesto de varios bloques funcionales, los cuales cumplen una tarea espec\'{i}fica. Un microcontrolador incluye en su interior las tres principales unidades funcionales de una computadora: unidad central de procesamiento, memoria y perif\'{e}ricos de entrada/salida. Los PIC son una familia de microcontroladores tipo RISC fabricados por Microchip Technology Inc. y derivados del PIC1650, originalmente desarrollado por la divisi\'{o}n de microelectr\'{o}nica de General Instrument. El nombre actual no es un acr\'{o}nimo. En realidad, el nombre completo es PICmicro, aunque generalmente se utiliza como Peripheral Interface Controller (controlador de interfaz perif\'{e}rico). El PIC original se dise\~{n}\'{o} para ser usado con la nueva CPU de 16 bits CP16000. Siendo en general una buena CPU, \'{e}sta tenía malas prestaciones de entrada y salida, y el PIC de 8 bits se desarroll\'{o} en 1975 para mejorar el rendimiento del sistema quitando peso de entrada/salida a la CPU. El PIC utilizaba microc\'{o}digo simple almacenado en ROM para realizar estas tareas; y aunque el t\'{e}rmino no se usaba por aquel entonces, se trata de un dise\~{n}o RISC que ejecuta una instrucci\'{o}n cada 4 ciclos del oscilador. En este caso Utilizaremos este tipo de famiias de Microcontrolador, en especifico el siguiete: 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=8cm]{../../../../../../Pictures/jJAJAJAJJAJAJAJAJAJJAJAJAJAJAJAJAJJAJA.jpg}
+\caption{Microconrolador pic 16f886}
+\end{figure}
+\\
+Debido a que el modulo tiene una c\'{a}mara de calentamiento a donde tiene que ingresar o salir el gas, el tiempo de respuesta es lento, el sensor seguir\'{a} detectando los residuos de gas que se quedan dentro de la c\'{a}mara de calentamiento hasta que estos desaparezcan. Tener en cuenta que todos los m\'{o}dulos son sensibles a m\'{a}s de un gas, claro que en diferente proporci\'{o}n; pero si se trabaja en ambientes en donde hay diferentes tipos de gases no podr\'{i}amos diferenciar entre ellos y podr\'{i}amos tener una referencia equivocada si solo necesitamos leer un gas. Si en nuestra aplicaci\'{o}n que estamos implementando necesitamos los valores en unidades correspondientes a la medici\'{o}n del gas, necesitamos escalar el valor le\'{i}do, el problema de esto es que la relaci\'{o}n entre la lectura anal\'{o}gica y el valor real no es lineal. Por lo que necesitamos estimar la curva que nos da el datasheet. Los siguientes pasos los trabajamos para el MQ-2, pero se aplica analogamente para los otros MQ. Por Ejemplo para el sensor MQ-2 seg\'{u}n el datasheet la curva es la siguiente:
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=11cm]{../../../../../../Pictures/jejejejejajajajjuajua.jpg}
+\end{figure}
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
+
+\section{Instrumentaci\'{o}n.}\\
+1).- Fuente regulada de 5 V.\\
+2).- Microcontrolador 16f886A.\\
+3).- Potenci\'{o}metro.\\
+4).- Resistencias de varios valores.\\
+5).- Sensor de temperatura MQ-2\\
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	SECTION 5
+%----------------------------------------------------------------------------------------
+
+
+\section{Datos y Resultados.}\\
+Debido a que nos da la curva y no la ecuaci\'{o}n es necesario estimar y por regresi\'{o}n hallar la ecuaci\'{o}n, en nuestro caso usaremos Excel, para eso ingresamos datos de la curva de Alcohol, la mayor cantidad de puntos que podamos, y graficamos en Excel. Agregamos l\'{i}nea de tendencia y escogemos ecuaci\'{o}n potencial
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=8cm]{../../../../../../Pictures/proyectoooo.jpg}
+\end{figure}
+\\
+\textbf{Ajuste de datos:} La ecuaci\'{o}n que obtenemos es.
+\[OH({R}_{s}/{R}_{o})=4.091\times {10}^{-1}{({R}_{s}/{R}_{o})}^{-1.497} \]
+Donde OH es el valor de concentraci\'{o}n de alcohol, ${R}_{o}$ es una constante que equivale al valor de la resistencia del sensor cuando se lo expone a una concentraci\'{o}n de 0.4mg/L y ${R}_{s}$ es la resistencia del sensor, el cual leemos desde el Microcontrolador. Nosotros en el ejemplo anterior calculamos el voltaje le\'{i}do del sensor, para calcular el valor de ${R}_{s}$ despejamos la ecuaci\'{o}n del divisor de voltaje que forma el sensor con la resistencia de carga ${R}_{L}$ que en la mayor\'{i}a de m\'{o}dulos es de 1K.
+\[{V}_{le\\{i}do} = 5 \frac{1000}{{R}_{s} + 1000} \]
+\[Entonces \quad {R}_{s} = 1000 \frac{5-V}{V}\]
+El valor de ${R}_{o}$ se calcula en laboratorio, ${R}_{o}$ es el valor de ${R}_{s}$ cuando se usa una muestra de aire con 0.4mg/L. Y hay que hacer esto para cada sensor puesto que ${R}_{o}$ es diferente en cada sensor. Otra forma de calibrar es usando concentraciones conocidas, para esto es necesario en el caso del sensor de alcohol usar un alcohol\'{i}metro para calibrarlo. Para esto no es necesario hacer la regresi\'{o}n de  la curva que nos da el datasheet la cual es v\'{a}lida siempre y cuando se mida en las condiciones indicadas. De dicha curva solo tomaremos la forma que tiene e incluso ${R}_{o}$  lo consideramos como constante. La ecuaci\'{o}n seria de la siguiente forma.
+\[OH = a({R}_{s})^{b}\]
+\textbf{CUIDADO}: Para calcular las constantes a y b solo necesitamos tomar dos muestras, con nuestro sensor medimos el ${R}_{s}$ de dichas muestras y con el alcohol\'{i}metro calculamos el valor correspondiente de concentraci\'{o}n de alcohol para dichas muestras. Con esos dos puntos ingresamos a la ecuaci\'{o}n y calculamos las dos constantes. Las dos formas anteriores son la forma correcta de calibrar nuestro sensor, hallando Ro con una muestra 0.4mg/L o usando un alcohol\'{i}metro para tomar muestras de referencia.
+\\
+Pero para no dejar inconcluso nuestra pr\'{a}ctica abusaremos de otro m\'{e}todo para conseguir de forma aproximada el valor de ${R}_{o}$ y as\'{i} tener la ecuaci\'{o}n resuelta. En el gr\'{a}fico de la ecuaci\'{o}n potencial observamos que el valor de ${R}_{s}/{R}_{o}$ se acerca a 0.1 para valores superiores a la  m\'{a}xima concentraci\'{o}n de alcohol que el sensor puede censar, en los puntos cercanos a este punto, la variaci\'{o}n de Rs/Ro es m\'{i}nima por lo que los errores que podamos tener ac\'{a} para calcular Ro son peque\~{n}os. Entonces asumiendo que el sensor se satura con 10mg/L  al cual seg\'{a}n la gr\'{a}fica le corresponde un  ${R}_{s}/{R}_{o}$  de 0.12, los puntos cercanos por mayor variaci\'{o}n de alcohol que exista el ${R}_{s}/{R}_{o}$ tendr\'{a} variaciones m\'{i}nimas. Para estar en este punto generamos un ambiente con bastante alcohol y si medimos con nuestro sensor obtendremos un voltaje de 3.02, que equivale a un ${R}_{s}$=655$\Omega$, entonces
+\[{R}_{s}/{R}_{o}=0.12 \quad si \quad {R}_{s}= 655 \Omega \quad entonces \quad {R}_{o}= 5463 \Omega \]
+Con ${R}_{o}$ calculado,  ya tenemos una soluci\'{o}n de la ecuaci\'{o}n y con esto  podemos obtener los valores aproximados de concentraci\'{o}n de alcohol. Cualquiera sea el m\'{e}todo de calcular la ecuaci\'{o}n deber\'{a}n de ingresarlo y modificar la ecuaci\'{o}n en  el programa, luego obtenemos la siguiente tabla de datos: 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=4cm]{../../../../../../Pictures/ffffffffff.jpg} 
+\end{figure}
+\\
+Luego tenemos la siguiente gr\'{a}fico: 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=10cm]{../../../../../../Pictures/shaaasa.jpg}
+\caption{Gr\'{a}fico con linea de tendencia.}
+\end{figure}
+\\
+\\
+\textbf{Discusi\'{o}n}
+Mencionar nuevamente que todos los sensores MQ como los MQ-2, MQ-3, MQ-7, MQ-135, etc tienen su propia curva y las cuales lo pueden encontrar en sus datasheet correspondientes. Y la forma correcta de calibrar nuestros MQ es usar un instrumento maestro para tomar muestras y con estos puntos calcular las constantes de la curva y no exactamente lo que se hizo aqu\'{i} tomar valores aproximados porque puede que haya errores muy grandes. 
+%----------------------------------------------------------------------------------------
+%	SECTION 6
+%---------------------------------------------------------------------------------------
+
+
+\section{Conclusiones.}
+Se comprendi\'{o} de manera te\'{o}rica los resultados y vimos que era imprescindible un aparato exterior para poder adquirir constantes de nuestro sensor, ya que en este caso no encontramos una ecuaci\'{o}n muy aproximada  como lo marcaba la hoja de datos. Se comprendi\'{o} que calibrar los aparatos de medici\'{o}n requiere bastante sutileza y comprensi\'{o}n de conocimientos b\'{a}sicos de f\'{i}sica, adem\'{a}s claro de condiciones iniciales que se requieren.   
+%----------------------------------------------------------------------------------------
+%	SECTION 9
+%----------------------------------------------------------------------------------------
+ \section{Bibliograf\'{i}a.}
+1.-https://es.wikipedia.org/wiki/Microcontrolador_PIC.\\
+2.-http://wiki.seeed.cc/Grove-Gas_Sensor-MQ2/\\
+3.-https://sites.google.com/site/labenriquesalgadoruiz/home/politecnico-1/fisica-iii .\\
+4.-Resnick/Halliday/Krane. Fundamentos de F\'{i}sica. Volumen 2. Edici\'{o}n 6, extendida. CESA\\
+
+%----------------------------------------------------------------------------------------
+%	SECTION 10
+%----------------------------------------------------------------------------------------
+
+\end{document}

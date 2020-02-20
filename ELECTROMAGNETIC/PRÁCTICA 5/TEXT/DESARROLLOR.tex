@@ -1,0 +1,186 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Flores Rodguez Jaziel David }
+\title{Práctica 1}
+\begin{document}
+
+\tableofcontents
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+\\
+\medskip
+\medskip
+\section{Resumen.}
+\
+Se trabaja de manera simult\'{a}nea con procesos te\'{o}ricos y experimentales, en esta pr\'{a}cica se aprende a manejar correctamente el instrumentode medici\'{o}n Mult\'{i}metro o V.O.M. (por el momento anal\'o}gico) con el cual se contecta en los circuitos en serie o paralelo seg\'{u}n sea el caso. Se estudia y se da mesura a efecto de carga en un mult\'{i}metro con la medici\'{o}n de corriente, y se encuentra un extra\~{n}o fen\'{o}meno al cambiar de escala en un mult\'{i}metro.   \\
+\medskip
+Palabras clave: mult\'{i}metro, serie, paralelo, efecto de carga en V.O.M..
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Objectivos.}
+a) Que el alumno se familiarice con el principio de funcionamiento del V.O.M. (volt\'{i}metro, ohmetro, miliamper\'{i}metro).\\ 
+
+b) Que comprenda el efecto de carga del V.O.M. en la medici\'{o}n de voltajes en circuitos de c.c.\\
+
+c) Que comprenda el efecto de carga del V.O.M. en la medici\'{o}n de corrientes en circuitos de c.c.\\
+\pagebreak
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+\section{Metodolog\'{i}a.}
+El V.O.M. es un dispositivo electr\'{o}nico-mec\'{a}nico, con el cual es posible medir:\\
+a) Resistencias el\'{e}ctricas.\\
+b) Diferencias de potencial en circuitos de c.c. y c.a.\\
+c) Intensidades de corriente el\'{e}ctrica en circuitos de c. c.\\
+\\
+\textbf{Mult\'{i}metro anal\'{o}gico}. Un mult\'{i}metro anal\'{o}gico est\'{a} construido de la siguiente forma:
+\\
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=12cm]{../../../../../../Pictures/PRIMERA51.jpg}
+\end{figure}
+\\
+La resistencia total de entrada que presenta un voltmetro al circuito de ensayo es:
+\[{R}_{t}= {R}_{s} + {R}_{m} \quad (1)\]
+Esta resistencia act\'{u}a como carga y afectar\'{a} a las mediciones del circuito. \\
+El efecto de carga de un V.O.M. depende de su caracter\'{i}stica ohm por volt del instrumento (que se conoce como resistencia nominal) y del margen de
+tensi\'{o}n en que se mide.
+La caracter\'{i}stica de ohm por volt, depende de la sensibilidad d el mecanismo
+del instrumento, es decir, la intensidad de corriente que circula por el instrumento para producir la desviaci\'{o}n de plena escala de la aguja, dicha dependencia esta dada por la siguiente relaci\'{o}n.
+\[\frac{\Omega}{V}= \frac{I}{{I}_{m}} \quad (2)\]
+Donde ${I}_{m}$ es la corriente necesaria para desviar la aguja a plena escala, as\'{i} un volt\'{i}metro construido con un galvan\'{o}metro de medida, que est\'{e} proyectado para $50\times{10}^{ -6 } $. tiene una resistencia nominal de 20,000 $\Omega / V $, esto
+\[\frac{1}{50\times{10}^{ -6 } A}= 20, 000 \Omega/V\]
+El producto de la relaci\'{o}n $\Omega/V$ por la escala de volta je seleccionado para medir, nos proporciona la resistencia de entrada del \textbf{V.O.M.} en este margen, es decir, la resistencia de entrada en la escala de 10 V. es:
+\[(20,000 \Omega/v)\times(10V)=2000,000 \Omega= 2000K \Omega\]
+\\
+\textbf{EFECTO DE CARGA DE UN V.O.M.}En un circuito como el mostrado figura ( 2 ) se tiene:
+\\
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=7cm]{../../../../../../Pictures/SEGUNDA52.jpg}
+\end{figure}
+\\
+Por la conservaci\'{o}n de energ\'{i}a.
+\[E={R}_{1}I + {R}_{2}I \quad (5)\]
+\[E=I({R}_{1} + {R}_{2} \quad (6)\]
+\[I=\frac{E}{{R}_{1} + {R}_{2}}\]
+La ca\'{i}da de tensi\'{o}n en ${R}_{2}$ es:
+\[{V}_{2} ={R}_{2} I = \frac{{R}_{2} E}{{R}_{1} +{R}_{2}} \quad valor\quad te\'{o}rico \quad \quad (8) \]
+Cuando se conecta el V.O.M. se tiene la resistencia interna de este, en paralelo con la R del circuito, en cuyo caso se puede simplificar el circuito, obteniendo la resistencia equivalente, esto es:
+\[\frac{{R}_{2} {R}_{int}}{{R}_{2} + {R}_{int} } = {R}_{Y}\]
+Ahora la ca\'{i}da de tensi\'{o}n se obtiene, sustituyendo en la ecuaci\'{o}n (4) a ${R}_{Y}$ por ${R}_{2}$ esto es:
+\[{ V }_{ x }=\frac { \frac { { R }_{ 2 }R_{ int } }{ { R }_{ 2\quad  }+\quad R_{ int } }  }{ { R }_{ 1\quad  }+\frac { { R }_{ 2 }{ R }_{ int } }{ { R }_{ 2 }+{ R }_{ int } }  } E=\quad \frac { { R }_{ 2 }{ R }_{ int } }{ { R }_{ 1 }{ R }_{ 2 }\quad +\quad { R }_{ int }({ R }_{ 1 }+{ R }_{ 2) } } E\quad (10)\]
+Esta ecuaci\'{o}n nos proporciona el valor experimental de la ca\'{i}da de tensi\'{o}n en ${R}_{2}$. Teniendo el valor te\'{o}rico y el experimental de la ca\'{i}da de tensi\'{o}n en ${R}_{2}$ se obtiene el error porcentual como:
+\[{e}_{\%} = \frac{{V}_{f}-{V}_{x}}{{V}_{t}} \times 100 \quad (11)\]
+\[{e}_{\%}= - \frac{{R}_{2} {R}_{int}}{{R}_{1}{R}_{2} + {R}_{int}({R}_{1} + {R}_{2})} \times 100 \quad (12) \]
+\\
+\textbf{EFECTO DE CARGA DE UN V.O.M. MIDIENDO EN DOS ESCALAS DIFERENTES.}
+\\
+Si no se conoce ${R}_{1}$ y ${R}_{2}$ no se puede calcular la tensi\'{o}n sin error (valor te\'{o}rico), para lo cual se emplea otra t\'{e}cnica. Es posible calcular la tensi\'{o}n sin error E ab, entre los extremos de ${R}_{2}$, midiendo la tensi\'{o}n en dos escalas diferentes del mismo V.O.M. Supongamos que la tensi\'{o}n en la escala 1 es ${V}_{x1}$ y su resistencia de entrada es ${R}_{11}$, y la tensi\'{o}n en la escala 2 es ${V}_{x2}$ y su resistencia de entrada es ${R}_{22}$ llamando:
+\[a= \frac{{R}_{11}}{{R}_{22}} \quad (13)\]
+La tensi\'{o}n sin error se encuentra con la siguiente expresi\'{o}n:
+\[{E}_{ab} = \frac{(a-1){V}_{x1} {V}_{x2}}{a{v}_{x2} - {V}_{x1}} \quad (14)\]
+En efecto de (10) se tiene:
+\[ { V }_{ x1 }=\frac { { R }_{ 1 }{ R }_{ 11 } }{ { R }_{ 1 }{ R }_{ 2 }+{ R }_{ 11 }({ R }_{ 1 }+{ R }_{ 2 }) } E\quad (15)\]
+\[ { V }_{ x2 }=\frac { { R }_{ 1 }{ R }_{ 22 } }{ { R }_{ 1 }{ R }_{ 2 }+{ R }_{ 22 }({ R }_{ 1 }+{ R }_{ 2 }) } E\quad (16)\]
+Sustituyendo ${V}_{x1}$ y ${V}_{x2}$ en (14) y desarrollando se llega a:
+\[{ V }_{ t }=\frac { { R }_{ 2 } }{ { R }_{ 1 }+{ R }_{ 2 } } E\quad Valor\quad te\'{o}rico\quad (17)\]
+\textbf{EFECTO DE CARGA DE UN V.O.M. DE MEDICIONES DE CORRIENTE.}
+\\
+Si se tiene un circuito como el mostrado en la siguiente figura: 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=9cm]{../../../../../../Pictures/JEJEJEJEJEJEJEJ.jpg}
+\end{figure}
+Se tiene: 
+\[{I}_{t} = \frac{E}{R} \quad (18)\]
+\[{I}_{m} = \frac{E}{R + {R}_{int}} \quad (19)\]
+\[{R}_{int}= \frac{E}{{I}_{m}} - R \quad (20) \]
+\[{I}_{c} = \frac{{R}_{int}}{{R}_{t}}{I}_{m} \quad (21)\]
+\[{I}_{se} = \frac{{R}_{int} + {R}_{t}}{{R}_{t}}{I}_{m} \quad (22)\]
+Donde: ${I}_{t}$ corriente te\'{o}rica,${I}_{m}$ corriente medida, ${I}_{e}$ corriente error, ${R}_{t}$ resistencia total. 
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
+
+\section{Instrumentaci\'{o}n.}\\
+1).- Mult\´{i}metro anal\'{o}gico.\\
+2).- Mult\'{i}metro digital.\\
+3).- Puente de impedancia.\\
+4).- Tablero de conexiones con resistencias.\\
+5).- Fuente regulada (400 V- l A)\\
+6).- Fuente regulada (40 V- 10A.)\\
+7).- Resistencias de diferentes valores.\\
+8).- Resistencia de 10 k$\Omega$\\
+\pagebreak
+
+%----------------------------------------------------------------------------------------
+%	SECTION 5
+%----------------------------------------------------------------------------------------
+
+
+\section{Datos y Resultados.}\\
+\textbf{PARTE 1.}\\
+Con el V.O.M. se midieron 10 resistencias de diferentes valores, se repiti\'{o} la medici\'{o}n con el puente de impedancias y por \'{u}ltimo con el c\'{o}digo de colores, finalmente se llen\'{o} la siguiente tabla con sus datos
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=14cm]{../../../../../../Pictures/DESA1.jpg}
+\caption{Tabla 1. Mediciones de 10 resistencias de distintos modos.}
+\end{figure}
+\section*{Discusi\'{o}n.}
+Aqu\'{i} en esta parte la primer cosa que se present\'{o} fue saber usar el medidor de resistencias en la escala correcta ya que para m\'{i} fue dif\'{i}cil sentir mesura de las resistencias comerciales. Se observa que al menos la medida estaban en el mismo orden, la llamada tolerancia estaba en el rango indicado por e fabricante, excepto en una que pudo haber sido modificada por el paso del tiempo y se deterior\'{o}. \\
+\\
+\textbf{PARTE 2.}\\
+Se arm\'{o} el circuito mostrado en la Figura 2 con los valores de las resistencias indicados en la siguiente tabla. Posteriormente  se aplica al circuito, por medio de la fuente los voltajes indicados en la misma tabla y con el V.O.M. se midi\'{o} los voltajes entre los puntos a y b, empleando las dos escalas indicadas en la tabla. Se calcule el voltaje te\'{o}rico con las dos ecuaciones correspondientes y reg\'{i}strelos en la tabla. Y se obtuvo el valor de la resistencia interna para cada escala y  se registran sus valores en la tabla correspondiente. Finalmente se calcule el error porcentual para cada caso, el cual se registr\'{o} en la sigiente tabla: 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=9.7cm]{../../../../../../Pictures/PEPEPEPEPEPPPPPPPPPPPPPPPPPPP.jpg}
+\end{figure}
+
+\section*{Discusi\'{o}n.}
+En la tabla 2 como podemos observar, el voltaje nos indica el voltaje aplicado, las diferentes escalas utilizadas según el V.O.M. La \'{u}ltima columna representa la resistencia interna, esta se toma a partir de la resistencia nominal del V.O.M. que esta indicada en el mismo. Hay que notar adem\'{a}s que los errores porcentuales son esencialmente de los valores tomados con el V.O.M. y que casi nada tienen que ver con los voltajes que se introdujeron al sistema, por lo que se puede ver que es una trampa por as\'{i} decirlo de los voltajes indicados. Adem\'{a}s los errores demuestran que es impreciso el V.O.M.
+\\
+\\
+\textbf{PARTE 3.}\\
+Arme el circuito del diagrama de la figura 3, teniendo en cuenta que la resistencia debe ser de 10$K\Omega $ con un error de $1\%$ y se utiliza el V.O.M. como amper\'{i}metro. Posteiormente se conecta el amper\'{i}metro con la escala que se indica en la tabla 3 y por medio de la fuente de c.c. y se aplican los voltajes indicados al circuito.
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=10cm]{../../../../../../Pictures/ultima.jpg}
+\end{figure}
+\section*{Discusi\'{o}n.}\\
+En la parte 3, los resultados son muy satisfactorios de acuerdo a la I te\'{o}rica que se calcul\'{o} con la ecuaci\'{o}n 18. Los errores porcentuales son bajos con lo cual podemos decir que como amper\'{i}metro el V.O.M. se adapta y funciona muy bien.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 6
+%---------------------------------------------------------------------------------------
+
+\section{Conclusiones.}
+Se comprendi\'{o} de manera te\'{o}rica y pr\'{a}ctica como es que se conecta y mide la resistencia, la corriente y el voltaje, adem\'{a}s encontramos sus claras ventajas y desvenajas de estos, as\'{i} como su umbral de error el cual se midi\'{o}. Se vi\'{o} que aunque son instrumentos de medici\'{o}n confiables tienen cierto error con el cual se compararon distintos m\'{e}todos de medici\'{o}n. Ade\'{a}s se puede observar claramente que las resistencias por el uso perd\'{i}an sus propiedades el\'{e}ctricas y se mostr\'{o} que al medirlos estaba fuera de su rango de tolerancia en Ohms. 
+%----------------------------------------------------------------------------------------
+%	SECTION 9
+%----------------------------------------------------------------------------------------
+ \section{Bibliograf\'{i}a.}
+1.-https://unicrom.com/multimetro-vom-tester-polimetro/\\
+2.-https://unicrom.com/codigo-de-colores-de-las-resistencias/.\\
+3.-https://sites.google.com/site/labenriquesalgadoruiz/home/politecnico-1/fisica-iii .\\
+4.-Resnick/Halliday/Krane. Fundamentos de F\'{i}sica. Volumen 2. Edici\'{o}n 6, extendida. CESA\\
+
+%----------------------------------------------------------------------------------------
+%	SECTION 10
+%----------------------------------------------------------------------------------------
+
+\end{document}

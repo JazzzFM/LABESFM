@@ -1,0 +1,8 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Resumen.}{1}
+\contentsline {section}{\numberline {2}Objectivos.}{1}
+\contentsline {section}{\numberline {3}Metodolog\'{i}a.}{2}
+\contentsline {section}{\numberline {4}Instrumentaci\'{o}n.}{4}
+\contentsline {section}{\numberline {5}Datos y Resultados.}{5}
+\contentsline {section}{\numberline {6}Conclusiones.}{6}
+\contentsline {section}{\numberline {7}Bibliograf\'{i}a.}{6}
