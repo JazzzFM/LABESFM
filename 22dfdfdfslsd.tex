@@ -1,0 +1,162 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+
+\section*{2.2 Arreglo experimenal. Parte 2: M\'{e}todo de torca.} \\
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=11cm]{../../../../../Pictures/arreglogeneralfwfsdf.jpg} 
+\caption{Arreglo general.}
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=6cm]{../../../../../Pictures/IMG_20170214_125326885.jpg}  
+\caption{Vista lateral del arreglo}
+\end{figure}
+
+\pagebreak 
+
+\textbf{Procedimiento.}\\
+\\
+1.-Calibramos el intrumento de medici\'{o}n.\\
+2.-Medimos las constantes (X1,X2, X3, X4, rb, ra).\\
+3. Colocar masas en el gancho.\\
+4.-Medir el desplazamiento angular.\\
+5.-LLenar la tabla con 10 a 12 mediciones.\\
+
+\textbf{Resultados.}\\
+\\
+Comenzamos la pr\'{a}ctica con ell material proporcionado por el equipo de laboratorio, procedimos a medir algunas de nuestras constantes como lo son; la longitud de la barra, el radio de la polea.Llenamos la Tabla 1proporcionada para despu\'{e}s graficar la torca vs desplazamiento angular de cada mismo \'{a}ngulo de la barra y ajustar para calcular el G de cada muestra.\\
+\\
+\medskip
+\textbf{Tabla 1.}
+\\
+\begin{figure 2}
+\centering
+\includegraphics[width=9cm]{../../../../../Pictures/Tablawooo.jpg}    
+\end{figure 2}
+\\
+\\
+De la cual extragimos los datos de la siguiente tabla para poder hacer la gr\'{a}ficatorca vs desplazamiento angular.
+\\
+\begin{figure 3}
+\centering
+\includegraphics[width=5cm]{../../../../../Pictures/tabla21.jpg} 
+\includegraphics[width=5cm]{../../../../../Pictures/tabla22.jpg} 
+\\
+\caption{\textbf{Tabla 2.}  Datos tabulados para graficar.}
+\end{figure 3}
+\\
+\section*{Gr\'{a}fica de dispersi\'{o}n}
+\\
+\\
+\begin{figure 5}
+\centering
+\includegraphics[width=8cm]{../../../../../Pictures/DISPPERTHETA1.jpg} 
+\includegraphics[width=8cm]{../../../../../Pictures/DISPERSIONSSFSJDF.jpg} 
+\\ 
+\caption{Gr\'{a}fico de dispersi\'o}n para el m\'{e}todo de la torca.}
+\end{figure 5}
+\\
+\section*{5. Ajuste de datos.}\\
+Por el Apr\'{e}ndice 1 podemos hacer el respectivo ajuste por el m\'{e}todo de m\'{i}nimos cuadrados para encontrar un modelo lineal $Y=ax +b$ tales que $\left( { x }_{ i },{ y }_{ i } \right) \rightarrow \left( \theta 1(grad), M (Nm) \right) $ para cada uno de los datos de cada experimento y cuya tabla de entrada es:
+\medskip
+\\
+\caption{Tabla de entrada 1.}
+\\
+\begin{figure 6}
+\\
+\medskip  
+\medskip 
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+$\sum _{ i=1 }^{ n }{ { x }_{ i } } $(grad) & $\sum _{ i=1 }^{ n }{ { y }_{ i } } $ (Nm) & $ \sum _{ i=1 }^{ n }{ { y }_{ i } } { x }_{ i }$ (Nm grad) & $\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } }(grad)$ & n \\ 
+\hline 
+$5.6\times { 10 }^{ 1 }$& 5.45 & 80.95 & $3.08\times { 10 }^{ 2 }u$& 12 \\ 
+\hline 
+\end{tabular} 
+\end{figure 6}
+\\
+
+\end{figure 6} 
+\\
+\\
+De donde:
+\[a=\frac { n\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i } } \sum _{ i=1 }^{ n }{ { y }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } } \quad y\quad b=\frac { \sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } \sum _{ i=1 }^{ n }{ { y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } \sum _{ i=1 }^{ n }{ { x }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } }.\]
+Sustituyendo los valores queda:
+
+\[a=\frac { 12\times 80.95-\left[ \5.6\times { 10 }^{ 1 }\times  5.45\right]  }{ 12\times 3.08\times { 10 }^{ 2 }-{ \left( 5.6\times { 10 } \right)  }^{ 2 } } ={ 0.108 (grad/Nm).\]
+
+\[b=\frac { 3.08\times { 10 }^{ 1 }\times 5.45-\left[ 80.95\times 56 \right]  }{ 12\times 3.08\times { 10 }^{ 2 }-{ \left( 5.6\times { 10 }^{ 1} \right)  }^{ 2 } } = 0.0518 (Nm) \]
+Finalmente queda el modelos propuesto:
+\[{ M }_{ 1 }=  0.108x (grad/Nm) + 0.0518 (Nm) \rightarrow(1) \]
+
+Como la pendiente de la recta a tangente a la curva misma nos representa, por la f\'{o}rmula de torsi\'{o}n:
+\[ \frac { M c }{ I } =  { T }_{ max }\quad y \quad { T }_{ max }= G\theta )\]
+Y as\'{i}, podemos decir, por definici\'{o}n, que el m\'{o}duo de cizalladura  es: $G=8.09\times 10 }^{ 10 }(Pa).$
+
+Para encontrar un modelo lineal $Y=ax +b$ tales que $\left( { x }_{ i },{ y }_{ i } \right) \rightarrow \left( \theta 1(grad), M (Nm) \right) $ para cada uno de los datos de cada experimento y cuya tabla de entrada es:
+\medski\\
+\caption{Tabla de entrada 1.}
+\\
+\begin{figure 6}
+\\
+\medskip  
+\medskip 
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+$\sum _{ i=1 }^{ n }{ { x }_{ i } } $(grad) & $\sum _{ i=1 }^{ n }{ { y }_{ i } } $ (Nm) & $ \sum _{ i=1 }^{ n }{ { y }_{ i } } { x }_{ i }$ (Nm grad) & $\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } }(grad)$ & n \\ 
+\hline 
+$3.5\times { 10 }^{ 1 }$& 5.45 & 19.7 & $1.29\times { 10 }^{ 2 }u$& 12 \\ 
+\hline 
+\end{tabular} 
+\end{figure 6}
+\\
+
+\end{figure 6} 
+\\
+\\
+De donde:
+\[a=\frac { n\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i } } \sum _{ i=1 }^{ n }{ { y }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } } \quad y\quad b=\frac { \sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } \sum _{ i=1 }^{ n }{ { y }_{ i } } -\sum _{ i=1 }^{ n }{ { x }_{ i }{ y }_{ i } } \sum _{ i=1 }^{ n }{ { x }_{ i } }  }{ n\sum _{ i=1 }^{ n }{ { x }_{ i }^{ 2 } } -{ \left( \sum _{ i=1 }^{ n }{ { x }_{ i } }  \right)  }^{ 2 } }.\]
+Sustituyendo los valores queda:
+
+\[a=\frac { 12\times 19.7-\left[ \3.5\times { 10 }^{ 1 }\times  5.45\right]  }{ 12\times 1.29\times { 10 }^{ 2 }-{ \left( 3.5\times { 10 } \right)  }^{ 2 } } ={ 0.08715 (grad/Nm).\]
+
+\[b=\frac { 1.29\times { 10 }^{ 2 }\times 54.5-\left[ 19.7\times 35 \right]  }{ 12\times 1.29\times { 10 }^{ 2 }-{ \left( 3.5\times { 10 } \right)  }^{ 2 } } ={ 0.04195 (Nm).\]
+Finalmente queda el modelos propuesto:
+\[{ M }_{ 1 }=  0.08715x (grad/Nm) + 0.04195 (Nm) \rightarrow(2) \]
+
+Como la pendiente de la recta a tangente a la curva misma nos representa, por la f\'{o}rmula de torsi\'{o}n:
+\[ \frac { M c }{ I } =  { T }_{ max }\quad y \quad { T }_{ max }= G\theta )\]
+Y as\'{i}, podemos decir, por definici\'{o}n, que el m\'{o}duo de cizalladura  es: $G=7.69\times 10 }^{ 10 }(Pa).$
+\\
+Por lo anto el promedio de ambos queda { G }_{ prom } = $7.89\times 10 }^{ 10 }(Pa).$
+
+\section*{Error Porcentual.}\\
+Los valores verdaderos de los m\'{o}dulos de cizalladura del acero es ${ G }_{ 1 }=7.5\times { 10 }^{ 9 }Pa$. Entonces, de nuestras mediciones y c\'{a}lculos podemos obtener el error porcentual:
+
+\[{ E }rror-porcentual-{ Y }_{ 1 }=\frac { Error\quad verdadero }{ Valor\quad Verdadero } =\frac { Valor\quad verdadero - Valor\quad aproximado }{ Valor\quad verdadero } \times 100=34 % \]
+\\
+\section*{Ajuste por excel.}\\
+Notemos que mientras por medio de c\'{a}alculos pudimos enconrar un modelo, el programa Excel pudo enontrar otro, es cual se muestra a continuaci\'{o}n.
+
+\begin{figure}[hbtp]
+ \centering
+\includegraphics[width=8.5cm]{../../../../../Pictures/EXCLE33333333.jpg} 
+ \caption{Modelo por medio de excel. }
+\end{figure}
+ 
+ 
+ \section*{Discusiones.}\\
+ Al llevar acabo este experimento pudimos notar que las condiciones enlas que se hac\'{i}a no eran muy precisas, ya que nuestro medidor de desplazamiento \'{a}ngular d\'{i}gase comp\'{a}s, estaba colocado de una manera muy superficial y sin mayor soporte. A\'{u}n as\'{i} pudimos notar el fen\'{o}meno de torsi\'{o}n angular y cuando se involucra el esfuerzo de cizalladura, los \'{a}ngulos o desplazamiento angular variaba de manera casi constante con respecto a la torca, es decir, con respecto ala pocisi\'{o}n de la barra.
+\end{document}
